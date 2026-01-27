@@ -6,6 +6,8 @@ import flixel.FlxG;
 import flixel.util.FlxSpriteUtil;
 import flixel.input.keyboard.FlxKey;
 import flixel.util.FlxTimer;
+import flixel.input.gamepad.FlxGamepad;
+import flixel.input.gamepad.FlxGamepadInputID;
 
 class Player extends FlxSprite {
 	//var sprite:FlxSprite;
@@ -44,27 +46,82 @@ class Player extends FlxSprite {
 		scale.set(1.1, 1.1); // Sprite scale. COMMENT OUT IF SPRITE IS OF CORRECT SIZE
 		updateHitbox();
 	}
+
+	var lastAimDevice:String = "mouse"; // Default to mouse aiming
 	
 	override public function update(elapsed:Float):Void
 	{
 		super.update(elapsed);
 
-		if(FlxG.keys.enabled){
-			if(FlxG.keys.pressed.A){
-				x -= PLAYER_SPEED * elapsed;
-			}
-			if(FlxG.keys.pressed.D){
-				x += PLAYER_SPEED * elapsed;
-			}
-			if(FlxG.keys.pressed.W){
-				y -= PLAYER_SPEED * elapsed;
-			}
-			if(FlxG.keys.pressed.S){
-				y += PLAYER_SPEED * elapsed;
+		var moveX:Float = 0;
+  	  	var moveY:Float = 0;
+
+	    if (FlxG.keys.enabled)
+	    {
+	        if (FlxG.keys.pressed.A) {
+	            moveX -= 1;
+	        }
+	        if (FlxG.keys.pressed.D) {
+	            moveX += 1;
+	        }
+	        if (FlxG.keys.pressed.W) {
+	            moveY -= 1;
+	        }
+	        if (FlxG.keys.pressed.S) {
+	            moveY += 1;
+	        }
+	    }
+
+	    // Check for Gamepad input
+	    // --- Gamepad movement ---
+	    var gamepad:FlxGamepad = FlxG.gamepads.lastActive;
+	    if (gamepad != null)
+	    {
+	        // LEFT STICK axes
+			var gpMoveX:Float = gamepad.getXAxis(FlxGamepadInputID.LEFT_ANALOG_STICK);
+			var gpMoveY:Float = gamepad.getYAxis(FlxGamepadInputID.LEFT_ANALOG_STICK);
+
+		    // Deadzone
+		    if (Math.abs(gpMoveX) < 0.2) gpMoveX = 0;
+		    if (Math.abs(gpMoveY) < 0.2) gpMoveY = 0;
+
+		    // Add gamepad input to keyboard input
+		    moveX += gpMoveX;
+		    moveY += gpMoveY;
+		}
+
+	    // Apply final movement
+	    x += moveX * PLAYER_SPEED * elapsed;
+	    y += moveY * PLAYER_SPEED * elapsed;
+
+	    // --- Aiming Logic ---
+
+		// Check for active Gamepad aiming
+		if (gamepad != null)
+		{
+			var aimX:Float = gamepad.getXAxis(FlxGamepadInputID.RIGHT_ANALOG_STICK);
+			var aimY:Float = gamepad.getYAxis(FlxGamepadInputID.RIGHT_ANALOG_STICK);
+			
+			// Deadzone
+			if (Math.abs(aimX) > 0.2 || Math.abs(aimY) > 0.2)
+			{
+				// Actively aiming with gamepad
+				angle = Math.atan2(aimY, aimX) * 180 / Math.PI + 90;
+				lastAimDevice = "gamepad"; // Set last device
 			}
 		}
 
-		if (FlxG.mouse.enabled){
+		// Check for active Mouse aiming (if the mouse moved)
+		if (FlxG.mouse.enabled && (FlxG.mouse.deltaX != 0 || FlxG.mouse.deltaY != 0))
+		{
+			// If mouse moved, update last device
+			lastAimDevice = "mouse";
+		}
+
+		// Check if mouse moved
+		if (lastAimDevice == "mouse" && FlxG.mouse.enabled)
+		{
+			// If mouse was last, always aim at cursor
 			var center_x:Float = x + (width / 2);
 			var center_y:Float = y + (height / 2);
 
@@ -72,10 +129,15 @@ class Player extends FlxSprite {
 			var dy:Float = FlxG.mouse.y - center_y;
 
 			var angRad:Float = Math.atan2(dy, dx);
-
 			var angDeg:Float = angRad * (180 / Math.PI);
 
 			angle = angDeg + 90;
+		}
+		else if (lastAimDevice == "gamepad")
+		{
+			// If gamepad was last, the angle was already set
+			// when it was moving. If it's not moving now,
+			// the angle is simply not updated, so it holds still.
 		}
 
 		if (isDodging)

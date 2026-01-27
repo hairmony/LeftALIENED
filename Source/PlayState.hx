@@ -14,6 +14,8 @@ import flixel.util.FlxTimer;
 import flixel.math.FlxAngle;
 import flixel.util.FlxColor;
 import flixel.addons.display.FlxBackdrop;
+import flixel.input.gamepad.FlxGamepad;
+import flixel.input.gamepad.FlxGamepadInputID;
 
 class PlayState extends FlxState
 {
@@ -259,6 +261,8 @@ class PlayState extends FlxState
 		}
 		if (FlxG.keys.justPressed.COMMA) // Press , respawn
 		{
+			controlsText.text = "SPACE to SUPER";
+			
 			ship.reset(FlxG.width / 2 - (ship.width / 2), FlxG.height - 50);
 			playerHealth = PLAYER_HEALTH_MAX;
 			updateHealthText();
@@ -283,7 +287,7 @@ class PlayState extends FlxState
 		}
 		
 		// Reset button
-		if (FlxG.keys.justPressed.R)
+		if (FlxG.keys.justPressed.R || FlxG.gamepads.anyJustPressed(FlxGamepadInputID.DPAD_DOWN))
 		{
 			// MULTIPLIER = 1;
 			controlsText.text = "SPACE to SUPER";
@@ -291,7 +295,7 @@ class PlayState extends FlxState
 		}
 
 
-		if (FlxG.keys.justPressed.ESCAPE)
+		if (FlxG.keys.justPressed.ESCAPE || FlxG.gamepads.anyJustPressed(FlxGamepadInputID.START))
         {
         	pausemenu();
         }
@@ -303,7 +307,7 @@ class PlayState extends FlxState
         if (ship.alive) // Ship controls disabled if ship is dead
 		{
 			// Default: shoot 1 projectile with LMB or hold LMB
-			if ((FlxG.mouse.pressed && fireTimer >= fireRate) || FlxG.mouse.justPressed)
+			if (((FlxG.mouse.pressed || FlxG.gamepads.anyPressed(FlxGamepadInputID.RIGHT_TRIGGER)) && fireTimer >= fireRate) || FlxG.mouse.justPressed)
 			{
 				FlxG.sound.play("assets/sounds/ShootPlayer.ogg", 0.4, false);
 
@@ -314,7 +318,7 @@ class PlayState extends FlxState
 			}
 
 			// Multishot: shoot 8 projectiles in a circle
-			if (FlxG.keys.justPressed.SPACE && multishotCharge >= MULTISHOT_CHARGE_MAX)
+			if ((FlxG.keys.justPressed.SPACE  || FlxG.gamepads.anyJustPressed(FlxGamepadInputID.RIGHT_SHOULDER)) && multishotCharge >= MULTISHOT_CHARGE_MAX)
 			{
 				FlxG.sound.play("assets/sounds/ShootSpecial.ogg", 0.4, false);
 
@@ -335,7 +339,7 @@ class PlayState extends FlxState
 				updateMultishotText();
 			}
 
-			if ((FlxG.keys.justReleased.SHIFT || FlxG.mouse.justReleasedRight) && !ship.isDodging)
+			if ((FlxG.keys.justReleased.SHIFT || FlxG.mouse.justReleasedRight || FlxG.gamepads.anyJustReleased(FlxGamepadInputID.LEFT_SHOULDER)) && !ship.isDodging)
 			{
 				FlxG.sound.play("assets/sounds/Dodge.ogg", 0.4, false);
 
