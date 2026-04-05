@@ -44,6 +44,18 @@
 #ifndef INCLUDED_flixel_input_IFlxInputManager
 #include <flixel/input/IFlxInputManager.h>
 #endif
+#ifndef INCLUDED_flixel_input_gamepad_FlxGamepad
+#include <flixel/input/gamepad/FlxGamepad.h>
+#endif
+#ifndef INCLUDED_flixel_input_gamepad_FlxGamepadManager
+#include <flixel/input/gamepad/FlxGamepadManager.h>
+#endif
+#ifndef INCLUDED_flixel_input_gamepad_FlxTypedGamepadAnalogStick
+#include <flixel/input/gamepad/FlxTypedGamepadAnalogStick.h>
+#endif
+#ifndef INCLUDED_flixel_input_gamepad_mappings_FlxTypedGamepadMapping
+#include <flixel/input/gamepad/mappings/FlxTypedGamepadMapping.h>
+#endif
 #ifndef INCLUDED_flixel_input_keyboard_FlxKeyList
 #include <flixel/input/keyboard/FlxKeyList.h>
 #endif
@@ -90,63 +102,64 @@
 #include <openfl/events/IEventDispatcher.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_9d6b32c958ffa4d3_10_new,"Player","new",0x8d5554f3,"Player.new","Player.hx",10,0xa27fc9dd)
-HX_LOCAL_STACK_FRAME(_hx_pos_9d6b32c958ffa4d3_49_update,"Player","update",0xf1f8df56,"Player.update","Player.hx",49,0xa27fc9dd)
-HX_LOCAL_STACK_FRAME(_hx_pos_9d6b32c958ffa4d3_92_update,"Player","update",0xf1f8df56,"Player.update","Player.hx",92,0xa27fc9dd)
-HX_LOCAL_STACK_FRAME(_hx_pos_9d6b32c958ffa4d3_12_boot,"Player","boot",0x156e003f,"Player.boot","Player.hx",12,0xa27fc9dd)
-HX_LOCAL_STACK_FRAME(_hx_pos_9d6b32c958ffa4d3_17_boot,"Player","boot",0x156e003f,"Player.boot","Player.hx",17,0xa27fc9dd)
+HX_DEFINE_STACK_FRAME(_hx_pos_9d6b32c958ffa4d3_12_new,"Player","new",0x8d5554f3,"Player.new","Player.hx",12,0xa27fc9dd)
+HX_LOCAL_STACK_FRAME(_hx_pos_9d6b32c958ffa4d3_53_update,"Player","update",0xf1f8df56,"Player.update","Player.hx",53,0xa27fc9dd)
+HX_LOCAL_STACK_FRAME(_hx_pos_9d6b32c958ffa4d3_154_update,"Player","update",0xf1f8df56,"Player.update","Player.hx",154,0xa27fc9dd)
+HX_LOCAL_STACK_FRAME(_hx_pos_9d6b32c958ffa4d3_14_boot,"Player","boot",0x156e003f,"Player.boot","Player.hx",14,0xa27fc9dd)
+HX_LOCAL_STACK_FRAME(_hx_pos_9d6b32c958ffa4d3_19_boot,"Player","boot",0x156e003f,"Player.boot","Player.hx",19,0xa27fc9dd)
 
 void Player_obj::__construct(::hx::Null< int >  __o_assetID){
             		int assetID = __o_assetID.Default(0);
-            	HX_STACKFRAME(&_hx_pos_9d6b32c958ffa4d3_10_new)
-HXLINE(  22)		this->asset = HX_("assets/images/Ship.png",c2,b1,55,c5);
-HXLINE(  20)		this->isInvincible = false;
-HXLINE(  18)		this->dodgeTimer = ((Float)0);
-HXLINE(  16)		this->dodgeDuration = ((Float)0.25);
-HXLINE(  15)		this->isDodging = false;
-HXLINE(  26)		super::__construct((( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) )),(( (Float)(::flixel::FlxG_obj::height) ) / ( (Float)(2) )),null());
-HXLINE(  29)		::String _hx_tmp;
-HXDLIN(  29)		switch((int)(assetID)){
+            	HX_STACKFRAME(&_hx_pos_9d6b32c958ffa4d3_12_new)
+HXLINE(  50)		this->lastAimDevice = HX_("mouse",25,16,65,0c);
+HXLINE(  24)		this->asset = HX_("assets/images/Ship.png",c2,b1,55,c5);
+HXLINE(  22)		this->isInvincible = false;
+HXLINE(  20)		this->dodgeTimer = ((Float)0);
+HXLINE(  18)		this->dodgeDuration = ((Float)0.25);
+HXLINE(  17)		this->isDodging = false;
+HXLINE(  28)		super::__construct((( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) )),(( (Float)(::flixel::FlxG_obj::height) ) / ( (Float)(2) )),null());
+HXLINE(  31)		::String _hx_tmp;
+HXDLIN(  31)		switch((int)(assetID)){
             			case (int)0: {
-HXLINE(  29)				_hx_tmp = HX_("assets/images/Ship.png",c2,b1,55,c5);
+HXLINE(  31)				_hx_tmp = HX_("assets/images/Ship.png",c2,b1,55,c5);
             			}
             			break;
             			case (int)1: {
-HXLINE(  29)				_hx_tmp = HX_("assets/images/Ship2.png",06,a0,a1,07);
+HXLINE(  31)				_hx_tmp = HX_("assets/images/Ship2.png",06,a0,a1,07);
             			}
             			break;
             			case (int)2: {
-HXLINE(  29)				_hx_tmp = HX_("assets/images/Ship3.png",87,34,08,9b);
+HXLINE(  31)				_hx_tmp = HX_("assets/images/Ship3.png",87,34,08,9b);
             			}
             			break;
             			case (int)3: {
-HXLINE(  29)				_hx_tmp = HX_("assets/images/Ship4.png",08,c9,6e,2e);
+HXLINE(  31)				_hx_tmp = HX_("assets/images/Ship4.png",08,c9,6e,2e);
             			}
             			break;
             			case (int)4: {
-HXLINE(  29)				_hx_tmp = HX_("assets/images/Ship5.png",89,5d,d5,c1);
+HXLINE(  31)				_hx_tmp = HX_("assets/images/Ship5.png",89,5d,d5,c1);
             			}
             			break;
             			case (int)5: {
-HXLINE(  29)				_hx_tmp = HX_("assets/images/Ship6.png",0a,f2,3b,55);
+HXLINE(  31)				_hx_tmp = HX_("assets/images/Ship6.png",0a,f2,3b,55);
             			}
             			break;
             			default:{
-HXLINE(  29)				_hx_tmp = HX_("assets/images/Ship.png",c2,b1,55,c5);
+HXLINE(  31)				_hx_tmp = HX_("assets/images/Ship.png",c2,b1,55,c5);
             			}
             		}
-HXDLIN(  29)		this->asset = _hx_tmp;
-HXLINE(  39)		this->loadGraphic(this->asset,null(),null(),null(),null(),null());
-HXLINE(  41)		Float _hx_tmp1 = (( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) ));
-HXDLIN(  41)		this->set_x((_hx_tmp1 - (this->get_width() / ( (Float)(2) ))));
-HXLINE(  42)		Float _hx_tmp2 = (( (Float)(::flixel::FlxG_obj::height) ) / ( (Float)(2) ));
-HXDLIN(  42)		this->set_y((_hx_tmp2 - (this->get_height() / ( (Float)(2) ))));
-HXLINE(  44)		{
-HXLINE(  44)			 ::flixel::math::FlxBasePoint this1 = this->scale;
-HXDLIN(  44)			this1->set_x(((Float)1.1));
-HXDLIN(  44)			this1->set_y(((Float)1.1));
+HXDLIN(  31)		this->asset = _hx_tmp;
+HXLINE(  41)		this->loadGraphic(this->asset,null(),null(),null(),null(),null());
+HXLINE(  43)		Float _hx_tmp1 = (( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) ));
+HXDLIN(  43)		this->set_x((_hx_tmp1 - (this->get_width() / ( (Float)(2) ))));
+HXLINE(  44)		Float _hx_tmp2 = (( (Float)(::flixel::FlxG_obj::height) ) / ( (Float)(2) ));
+HXDLIN(  44)		this->set_y((_hx_tmp2 - (this->get_height() / ( (Float)(2) ))));
+HXLINE(  46)		{
+HXLINE(  46)			 ::flixel::math::FlxBasePoint this1 = this->scale;
+HXDLIN(  46)			this1->set_x(((Float)1.1));
+HXDLIN(  46)			this1->set_y(((Float)1.1));
             		}
-HXLINE(  45)		this->updateHitbox();
+HXLINE(  47)		this->updateHitbox();
             	}
 
 Dynamic Player_obj::__CreateEmpty() { return new Player_obj; }
@@ -173,59 +186,118 @@ bool Player_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void Player_obj::update(Float elapsed){
-            	HX_GC_STACKFRAME(&_hx_pos_9d6b32c958ffa4d3_49_update)
-HXLINE(  50)		this->super::update(elapsed);
-HXLINE(  52)		if (::flixel::FlxG_obj::keys->enabled) {
-HXLINE(  53)			 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
-HXDLIN(  53)			if (_this->keyManager->checkStatusUnsafe(65,_this->status)) {
-HXLINE(  54)				this->set_x((this->x - (( (Float)(::Player_obj::PLAYER_SPEED) ) * elapsed)));
+            	HX_GC_STACKFRAME(&_hx_pos_9d6b32c958ffa4d3_53_update)
+HXLINE(  54)		this->super::update(elapsed);
+HXLINE(  56)		Float moveX = ( (Float)(0) );
+HXLINE(  57)		Float moveY = ( (Float)(0) );
+HXLINE(  59)		if (::flixel::FlxG_obj::keys->enabled) {
+HXLINE(  61)			 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
+HXDLIN(  61)			if (_this->keyManager->checkStatusUnsafe(65,_this->status)) {
+HXLINE(  62)				moveX = (moveX - ( (Float)(1) ));
             			}
-HXLINE(  56)			 ::flixel::input::keyboard::FlxKeyList _this1 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
-HXDLIN(  56)			if (_this1->keyManager->checkStatusUnsafe(68,_this1->status)) {
-HXLINE(  57)				this->set_x((this->x + (( (Float)(::Player_obj::PLAYER_SPEED) ) * elapsed)));
+HXLINE(  64)			 ::flixel::input::keyboard::FlxKeyList _this1 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
+HXDLIN(  64)			if (_this1->keyManager->checkStatusUnsafe(68,_this1->status)) {
+HXLINE(  65)				moveX = (moveX + 1);
             			}
-HXLINE(  59)			 ::flixel::input::keyboard::FlxKeyList _this2 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
-HXDLIN(  59)			if (_this2->keyManager->checkStatusUnsafe(87,_this2->status)) {
-HXLINE(  60)				this->set_y((this->y - (( (Float)(::Player_obj::PLAYER_SPEED) ) * elapsed)));
+HXLINE(  67)			 ::flixel::input::keyboard::FlxKeyList _this2 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
+HXDLIN(  67)			if (_this2->keyManager->checkStatusUnsafe(87,_this2->status)) {
+HXLINE(  68)				moveY = (moveY - ( (Float)(1) ));
             			}
-HXLINE(  62)			 ::flixel::input::keyboard::FlxKeyList _this3 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
-HXDLIN(  62)			if (_this3->keyManager->checkStatusUnsafe(83,_this3->status)) {
-HXLINE(  63)				this->set_y((this->y + (( (Float)(::Player_obj::PLAYER_SPEED) ) * elapsed)));
+HXLINE(  70)			 ::flixel::input::keyboard::FlxKeyList _this3 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
+HXDLIN(  70)			if (_this3->keyManager->checkStatusUnsafe(83,_this3->status)) {
+HXLINE(  71)				moveY = (moveY + 1);
             			}
             		}
-HXLINE(  67)		if (::flixel::FlxG_obj::mouse->enabled) {
-HXLINE(  68)			Float center_x = this->x;
-HXDLIN(  68)			Float center_x1 = (center_x + (this->get_width() / ( (Float)(2) )));
-HXLINE(  69)			Float center_y = this->y;
-HXDLIN(  69)			Float center_y1 = (center_y + (this->get_height() / ( (Float)(2) )));
-HXLINE(  71)			Float dx = (( (Float)(::flixel::FlxG_obj::mouse->x) ) - center_x1);
-HXLINE(  72)			Float dy = (( (Float)(::flixel::FlxG_obj::mouse->y) ) - center_y1);
-HXLINE(  74)			Float angRad = ::Math_obj::atan2(dy,dx);
-HXLINE(  76)			Float angDeg = (angRad * (( (Float)(180) ) / ::Math_obj::PI));
-HXLINE(  78)			this->set_angle((angDeg + 90));
+HXLINE(  77)		 ::flixel::input::gamepad::FlxGamepad gamepad = ::flixel::FlxG_obj::gamepads->lastActive;
+HXLINE(  78)		if (::hx::IsNotNull( gamepad )) {
+HXLINE(  81)			Float gpMoveX = gamepad->getAnalogXAxisValue(gamepad->mapping->getAnalogStick(19));
+HXLINE(  82)			Float gpMoveY = gamepad->getYAxisRaw(gamepad->mapping->getAnalogStick(19));
+HXLINE(  85)			if ((::Math_obj::abs(gpMoveX) < ((Float)0.2))) {
+HXLINE(  85)				gpMoveX = ( (Float)(0) );
+            			}
+HXLINE(  86)			if ((::Math_obj::abs(gpMoveY) < ((Float)0.2))) {
+HXLINE(  86)				gpMoveY = ( (Float)(0) );
+            			}
+HXLINE(  89)			moveX = (moveX + gpMoveX);
+HXLINE(  90)			moveY = (moveY + gpMoveY);
             		}
-HXLINE(  81)		if (this->isDodging) {
+HXLINE(  94)		this->set_x((this->x + ((moveX * ( (Float)(::Player_obj::PLAYER_SPEED) )) * elapsed)));
+HXLINE(  95)		this->set_y((this->y + ((moveY * ( (Float)(::Player_obj::PLAYER_SPEED) )) * elapsed)));
+HXLINE( 100)		if (::hx::IsNotNull( gamepad )) {
+HXLINE( 102)			Float aimX = gamepad->getAnalogXAxisValue(gamepad->mapping->getAnalogStick(20));
+HXLINE( 103)			Float aimY = gamepad->getYAxisRaw(gamepad->mapping->getAnalogStick(20));
+HXLINE( 106)			bool _hx_tmp;
+HXDLIN( 106)			if (!((::Math_obj::abs(aimX) > ((Float)0.2)))) {
+HXLINE( 106)				_hx_tmp = (::Math_obj::abs(aimY) > ((Float)0.2));
+            			}
+            			else {
+HXLINE( 106)				_hx_tmp = true;
+            			}
+HXDLIN( 106)			if (_hx_tmp) {
+HXLINE( 109)				this->set_angle((((::Math_obj::atan2(aimY,aimX) * ( (Float)(180) )) / ::Math_obj::PI) + 90));
+HXLINE( 110)				this->lastAimDevice = HX_("gamepad",a1,e0,85,89);
+            			}
+            		}
+HXLINE( 115)		bool _hx_tmp1;
+HXDLIN( 115)		if (::flixel::FlxG_obj::mouse->enabled) {
+HXLINE( 115)			 ::flixel::input::mouse::FlxMouse _this4 = ::flixel::FlxG_obj::mouse;
+HXDLIN( 115)			if (((_this4->x - _this4->_prevX) == 0)) {
+HXLINE( 115)				 ::flixel::input::mouse::FlxMouse _this5 = ::flixel::FlxG_obj::mouse;
+HXDLIN( 115)				_hx_tmp1 = ((_this5->y - _this5->_prevY) != 0);
+            			}
+            			else {
+HXLINE( 115)				_hx_tmp1 = true;
+            			}
+            		}
+            		else {
+HXLINE( 115)			_hx_tmp1 = false;
+            		}
+HXDLIN( 115)		if (_hx_tmp1) {
+HXLINE( 118)			this->lastAimDevice = HX_("mouse",25,16,65,0c);
+            		}
+HXLINE( 122)		bool _hx_tmp2;
+HXDLIN( 122)		if ((this->lastAimDevice == HX_("mouse",25,16,65,0c))) {
+HXLINE( 122)			_hx_tmp2 = ::flixel::FlxG_obj::mouse->enabled;
+            		}
+            		else {
+HXLINE( 122)			_hx_tmp2 = false;
+            		}
+HXDLIN( 122)		if (_hx_tmp2) {
+HXLINE( 125)			Float center_x = this->x;
+HXDLIN( 125)			Float center_x1 = (center_x + (this->get_width() / ( (Float)(2) )));
+HXLINE( 126)			Float center_y = this->y;
+HXDLIN( 126)			Float center_y1 = (center_y + (this->get_height() / ( (Float)(2) )));
+HXLINE( 128)			Float dx = (( (Float)(::flixel::FlxG_obj::mouse->x) ) - center_x1);
+HXLINE( 129)			Float dy = (( (Float)(::flixel::FlxG_obj::mouse->y) ) - center_y1);
+HXLINE( 131)			Float angRad = ::Math_obj::atan2(dy,dx);
+HXLINE( 132)			Float angDeg = (angRad * (( (Float)(180) ) / ::Math_obj::PI));
+HXLINE( 134)			this->set_angle((angDeg + 90));
+            		}
+            		else {
+HXLINE( 136)			bool _hx_tmp3 = (this->lastAimDevice == HX_("gamepad",a1,e0,85,89));
+            		}
+HXLINE( 143)		if (this->isDodging) {
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::flixel::FlxSprite,trail) HXARGC(1)
             			void _hx_run( ::flixel::util::FlxTimer t){
-            				HX_GC_STACKFRAME(&_hx_pos_9d6b32c958ffa4d3_92_update)
-HXLINE(  92)				trail->kill();
+            				HX_GC_STACKFRAME(&_hx_pos_9d6b32c958ffa4d3_154_update)
+HXLINE( 154)				trail->kill();
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE(  83)			 ::Player _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(  83)			_hx_tmp->dodgeTimer = (_hx_tmp->dodgeTimer + ::flixel::FlxG_obj::elapsed);
-HXLINE(  86)			 ::flixel::FlxSprite trail =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,this->x,this->y,null());
-HXLINE(  87)			trail->loadGraphic(this->asset,null(),null(),null(),null(),null());
-HXLINE(  88)			trail->set_alpha(((Float)0.2));
-HXLINE(  89)			trail->set_angle(this->angle);
-HXLINE(  90)			::flixel::FlxG_obj::game->_state->add(trail).StaticCast<  ::flixel::FlxBasic >();
-HXLINE(  92)			 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.2), ::Dynamic(new _hx_Closure_0(trail)),null());
-HXLINE(  95)			Float angleRad = (((this->angle - ( (Float)(90) )) * ::Math_obj::PI) / ( (Float)(180) ));
-HXLINE(  96)			this->set_x((this->x + ((::Math_obj::cos(angleRad) * ::Player_obj::DODGE_SPEED) * ::flixel::FlxG_obj::elapsed)));
-HXLINE(  97)			this->set_y((this->y + ((::Math_obj::sin(angleRad) * ::Player_obj::DODGE_SPEED) * ::flixel::FlxG_obj::elapsed)));
-HXLINE( 100)			if ((this->dodgeTimer >= this->dodgeDuration)) {
-HXLINE( 102)				this->isDodging = false;
-HXLINE( 103)				this->isInvincible = false;
+HXLINE( 145)			 ::Player _hx_tmp4 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 145)			_hx_tmp4->dodgeTimer = (_hx_tmp4->dodgeTimer + ::flixel::FlxG_obj::elapsed);
+HXLINE( 148)			 ::flixel::FlxSprite trail =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,this->x,this->y,null());
+HXLINE( 149)			trail->loadGraphic(this->asset,null(),null(),null(),null(),null());
+HXLINE( 150)			trail->set_alpha(((Float)0.2));
+HXLINE( 151)			trail->set_angle(this->angle);
+HXLINE( 152)			::flixel::FlxG_obj::game->_state->add(trail).StaticCast<  ::flixel::FlxBasic >();
+HXLINE( 154)			 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.2), ::Dynamic(new _hx_Closure_0(trail)),null());
+HXLINE( 157)			Float angleRad = (((this->angle - ( (Float)(90) )) * ::Math_obj::PI) / ( (Float)(180) ));
+HXLINE( 158)			this->set_x((this->x + ((::Math_obj::cos(angleRad) * ::Player_obj::DODGE_SPEED) * ::flixel::FlxG_obj::elapsed)));
+HXLINE( 159)			this->set_y((this->y + ((::Math_obj::sin(angleRad) * ::Player_obj::DODGE_SPEED) * ::flixel::FlxG_obj::elapsed)));
+HXLINE( 162)			if ((this->dodgeTimer >= this->dodgeDuration)) {
+HXLINE( 164)				this->isDodging = false;
+HXLINE( 165)				this->isInvincible = false;
             			}
             		}
             	}
@@ -261,6 +333,7 @@ void Player_obj::__Mark(HX_MARK_PARAMS)
 	HX_MARK_MEMBER_NAME(dodgeTimer,"dodgeTimer");
 	HX_MARK_MEMBER_NAME(isInvincible,"isInvincible");
 	HX_MARK_MEMBER_NAME(asset,"asset");
+	HX_MARK_MEMBER_NAME(lastAimDevice,"lastAimDevice");
 	 ::flixel::FlxSprite_obj::__Mark(HX_MARK_ARG);
 	HX_MARK_END_CLASS();
 }
@@ -272,6 +345,7 @@ void Player_obj::__Visit(HX_VISIT_PARAMS)
 	HX_VISIT_MEMBER_NAME(dodgeTimer,"dodgeTimer");
 	HX_VISIT_MEMBER_NAME(isInvincible,"isInvincible");
 	HX_VISIT_MEMBER_NAME(asset,"asset");
+	HX_VISIT_MEMBER_NAME(lastAimDevice,"lastAimDevice");
 	 ::flixel::FlxSprite_obj::__Visit(HX_VISIT_ARG);
 }
 
@@ -295,6 +369,7 @@ void Player_obj::__Visit(HX_VISIT_PARAMS)
 		break;
 	case 13:
 		if (HX_FIELD_EQ(inName,"dodgeDuration") ) { return ::hx::Val( dodgeDuration ); }
+		if (HX_FIELD_EQ(inName,"lastAimDevice") ) { return ::hx::Val( lastAimDevice ); }
 	}
 	return super::__Field(inName,inCallProp);
 }
@@ -328,6 +403,7 @@ bool Player_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx::Pr
 		break;
 	case 13:
 		if (HX_FIELD_EQ(inName,"dodgeDuration") ) { dodgeDuration=inValue.Cast< Float >(); return inValue; }
+		if (HX_FIELD_EQ(inName,"lastAimDevice") ) { lastAimDevice=inValue.Cast< ::String >(); return inValue; }
 	}
 	return super::__SetField(inName,inValue,inCallProp);
 }
@@ -351,6 +427,7 @@ void Player_obj::__GetFields(Array< ::String> &outFields)
 	outFields->push(HX_("dodgeTimer",6e,57,09,ac));
 	outFields->push(HX_("isInvincible",29,02,93,01));
 	outFields->push(HX_("asset",f0,69,39,26));
+	outFields->push(HX_("lastAimDevice",c5,53,12,bc));
 	super::__GetFields(outFields);
 };
 
@@ -361,6 +438,7 @@ static ::hx::StorageInfo Player_obj_sMemberStorageInfo[] = {
 	{::hx::fsFloat,(int)offsetof(Player_obj,dodgeTimer),HX_("dodgeTimer",6e,57,09,ac)},
 	{::hx::fsBool,(int)offsetof(Player_obj,isInvincible),HX_("isInvincible",29,02,93,01)},
 	{::hx::fsString,(int)offsetof(Player_obj,asset),HX_("asset",f0,69,39,26)},
+	{::hx::fsString,(int)offsetof(Player_obj,lastAimDevice),HX_("lastAimDevice",c5,53,12,bc)},
 	{ ::hx::fsUnknown, 0, null()}
 };
 static ::hx::StaticInfo Player_obj_sStaticStorageInfo[] = {
@@ -376,6 +454,7 @@ static ::String Player_obj_sMemberFields[] = {
 	HX_("dodgeTimer",6e,57,09,ac),
 	HX_("isInvincible",29,02,93,01),
 	HX_("asset",f0,69,39,26),
+	HX_("lastAimDevice",c5,53,12,bc),
 	HX_("update",09,86,05,87),
 	::String(null()) };
 
@@ -430,12 +509,12 @@ void Player_obj::__register()
 void Player_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_9d6b32c958ffa4d3_12_boot)
-HXDLIN(  12)		PLAYER_SPEED = 150;
+            	HX_STACKFRAME(&_hx_pos_9d6b32c958ffa4d3_14_boot)
+HXDLIN(  14)		PLAYER_SPEED = 150;
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_9d6b32c958ffa4d3_17_boot)
-HXDLIN(  17)		DODGE_SPEED = ((Float)400);
+            	HX_STACKFRAME(&_hx_pos_9d6b32c958ffa4d3_19_boot)
+HXDLIN(  19)		DODGE_SPEED = ((Float)400);
             	}
 }
 

@@ -65,9 +65,15 @@ class MenuState extends FlxState
         // Add background to state
         add(bg);
 
-        titleText = new FlxText(25, FlxG.height * 0.25, FlxG.width, "Left: ALIENED");
-		titleText.setFormat(null, 32, 0xffffff, "left"); // Set font size, color, and alignment
-		add(titleText);
+        // titleText = new FlxText(25, FlxG.height * 0.25, FlxG.width, "Left: ALIENED");
+		// titleText.setFormat(null, 32, 0xffffff, "left"); // Set font size, color, and alignment
+		// add(titleText);
+
+		var titleLogo = new FlxSprite(25, (FlxG.height * 0.25) - 25);
+		titleLogo.loadGraphic("assets/images/UI/Logo.png");
+		titleLogo.scale.set(0.45, 0.45);
+		titleLogo.updateHitbox();
+		add(titleLogo);
 
 		var playButton:FlxButton;
 		playButton = new FlxButton(0, 0, "Play", clickPlay);
@@ -113,17 +119,20 @@ class MenuState extends FlxState
 		creditsPanel.visible = false;
 		add(creditsPanel);
 		creditsText = new FlxText(creditsPanel.x + 10, creditsPanel.y + 10, creditsPanel.width - 20,
+		    "SINGLE SPAGETTY" + 
+		    "\n" +
+		    "presents" +
+		    "\n" +
+		    "\n" +
 		    "LEFT: ALIENED\n" +
 		    "\n" +
 		    "\n" +
-		    "Asteroid-Shooter\n" +
+		    "\n" +
+		    "\n" +
+		    "\"Asteroid-Shooter\"\n" +
 		    "by\n" +
-		    "Group 5\n" +
+		    "The Group Formerly Known as Group 5\n" +
 		    "\n" +
-		    "\n" +
-		    "Lakehead University\n" +
-		    "COMP-4478-FA\n" +
-		    "Dr. Sabah Mohammed\n" +
 		    "\n" +
 		    "\n" +
 		    "\n" +
@@ -134,7 +143,6 @@ class MenuState extends FlxState
 		    "CORE PROGRAMMERS\n" +
 		    "Kego Wigwas\n" +
 		    "Hari Vallath\n" +
-		    "Desire Ikechi\n" +
 		    "\n" +
 		    "ADDITIONAL PROGRAMMERS\n" +
 		    "Hari Vallath\n" +
@@ -194,6 +202,16 @@ class MenuState extends FlxState
 		    "QA ANALYSTS\n" +
 		    "Kego Wigwas\n" +
 		    "Hari Vallath\n" +
+		    "\n" +
+		    "\n" +
+		    "\n" +
+		    "\n" +
+		    "\n" +
+		    "\n" +
+		    "Lakehead University\n" +
+		    "COMP-4478-FA\n" +
+		    "Dr. Sabah Mohammed\n" +
+		    "\n" +
 		    "\n" +
 		    "\n" +
 		    "\n" +

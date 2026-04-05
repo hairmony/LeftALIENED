@@ -11515,6 +11515,10 @@
    <depend name="include/flixel/input/FlxKeyManager.h"/>
    <depend name="include/flixel/input/FlxPointer.h"/>
    <depend name="include/flixel/input/IFlxInputManager.h"/>
+   <depend name="include/flixel/input/gamepad/FlxGamepad.h"/>
+   <depend name="include/flixel/input/gamepad/FlxGamepadManager.h"/>
+   <depend name="include/flixel/input/gamepad/FlxTypedGamepadAnalogStick.h"/>
+   <depend name="include/flixel/input/gamepad/mappings/FlxTypedGamepadMapping.h"/>
    <depend name="include/flixel/input/keyboard/FlxKeyList.h"/>
    <depend name="include/flixel/input/keyboard/FlxKeyboard.h"/>
    <depend name="include/flixel/input/mouse/FlxMouse.h"/>
@@ -11559,6 +11563,7 @@
    <depend name="include/flixel/input/FlxPointer.h"/>
    <depend name="include/flixel/input/IFlxInput.h"/>
    <depend name="include/flixel/input/IFlxInputManager.h"/>
+   <depend name="include/flixel/input/gamepad/FlxGamepadManager.h"/>
    <depend name="include/flixel/input/keyboard/FlxKeyList.h"/>
    <depend name="include/flixel/input/keyboard/FlxKeyboard.h"/>
    <depend name="include/flixel/input/mouse/FlxMouse.h"/>

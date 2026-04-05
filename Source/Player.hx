@@ -135,9 +135,7 @@ class Player extends FlxSprite {
 		}
 		else if (lastAimDevice == "gamepad")
 		{
-			// If gamepad was last, the angle was already set
-			// when it was moving. If it's not moving now,
-			// the angle is simply not updated, so it holds still.
+			// If gamepad was last, the angle was already set when it moved.
 		}
 
 		if (isDodging)

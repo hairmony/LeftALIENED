@@ -59,6 +59,7 @@ class HXCPP_CLASS_ATTRIBUTES Player_obj : public  ::flixel::FlxSprite_obj
 		Float dodgeTimer;
 		bool isInvincible;
 		::String asset;
+		::String lastAimDevice;
 		void update(Float elapsed);
 
 };
