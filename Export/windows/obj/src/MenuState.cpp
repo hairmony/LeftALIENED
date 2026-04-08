@@ -118,11 +118,11 @@ HX_DEFINE_STACK_FRAME(_hx_pos_1f119275e66a7b90_14_new,"MenuState","new",0xe563b1
 HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_32_optionsMenu,"MenuState","optionsMenu",0x19169181,"MenuState.optionsMenu","MenuState.hx",32,0xdfbcb22c)
 HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_36_scaleBackgroundToCover,"MenuState","scaleBackgroundToCover",0x99895ca0,"MenuState.scaleBackgroundToCover","MenuState.hx",36,0xdfbcb22c)
 HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_51_create,"MenuState","create",0xe57b7c18,"MenuState.create","MenuState.hx",51,0xdfbcb22c)
-HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_251_closeGame,"MenuState","closeGame",0x443e782e,"MenuState.closeGame","MenuState.hx",251,0xdfbcb22c)
-HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_256_clickPlay,"MenuState","clickPlay",0x5f6a9ec0,"MenuState.clickPlay","MenuState.hx",256,0xdfbcb22c)
-HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_265_update,"MenuState","update",0xf0719b25,"MenuState.update","MenuState.hx",265,0xdfbcb22c)
-HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_289_showRules,"MenuState","showRules",0x55cbce1e,"MenuState.showRules","MenuState.hx",289,0xdfbcb22c)
-HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_301_showCredits,"MenuState","showCredits",0x8f9f9001,"MenuState.showCredits","MenuState.hx",301,0xdfbcb22c)
+HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_250_closeGame,"MenuState","closeGame",0x443e782e,"MenuState.closeGame","MenuState.hx",250,0xdfbcb22c)
+HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_255_clickPlay,"MenuState","clickPlay",0x5f6a9ec0,"MenuState.clickPlay","MenuState.hx",255,0xdfbcb22c)
+HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_264_update,"MenuState","update",0xf0719b25,"MenuState.update","MenuState.hx",264,0xdfbcb22c)
+HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_288_showRules,"MenuState","showRules",0x55cbce1e,"MenuState.showRules","MenuState.hx",288,0xdfbcb22c)
+HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_300_showCredits,"MenuState","showCredits",0x8f9f9001,"MenuState.showCredits","MenuState.hx",300,0xdfbcb22c)
 HX_LOCAL_STACK_FRAME(_hx_pos_1f119275e66a7b90_27_boot,"MenuState","boot",0xc9f0da4e,"MenuState.boot","MenuState.hx",27,0xdfbcb22c)
 
 void MenuState_obj::__construct(){
@@ -250,25 +250,25 @@ HXLINE( 119)		this->creditsPanel->set_visible(false);
 HXLINE( 120)		this->add(this->creditsPanel);
 HXLINE( 121)		Float _hx_tmp8 = (this->creditsPanel->x + 10);
 HXDLIN( 121)		Float _hx_tmp9 = (this->creditsPanel->y + 10);
-HXDLIN( 121)		this->creditsText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,_hx_tmp8,_hx_tmp9,(this->creditsPanel->get_width() - ( (Float)(20) )),((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((HX_("SINGLE SPAGETTY",8f,fc,97,58) + HX_("\n",0a,00,00,00)) + HX_("presents",18,61,d7,66)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("LEFT: ALIENED\n",b1,db,5a,c7)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\"Asteroid-Shooter\"\n",84,38,a2,56)) + HX_("by\n",53,c6,4a,00)) + HX_("The Group Formerly Known as Group 5\n",55,25,ff,1a)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("PROGRAMMERS\n",ed,1b,4b,d9)) + HX_("\n",0a,00,00,00)) + HX_("CORE PROGRAMMERS\n",4e,17,58,80)) + HX_("Kego Wigwas\n",78,d5,42,d0)) + HX_("Hari Vallath\n",70,e9,4b,be)) + HX_("\n",0a,00,00,00)) + HX_("ADDITIONAL PROGRAMMERS\n",c6,1a,52,47)) + HX_("Hari Vallath\n",70,e9,4b,be)) + HX_("Kego Wigwas\n",78,d5,42,d0)) + HX_("\n",0a,00,00,00)) + HX_("UI PROGRAMMERS\n",39,9d,53,8c)) + HX_("Niraaj Harshadan\n",79,b5,29,52)) + HX_("Nihar Poojari\n",2e,cf,41,08)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("ART & SOUND DESIGN\n",44,f4,de,90)) + HX_("\n",0a,00,00,00)) + HX_("ART & SOUND DESIGNER\n",b7,99,e4,bd)) + HX_("Niraaj Harshadan\n",79,b5,29,52)) + HX_("\n",0a,00,00,00)) + HX_("SPRITES\n",9c,9b,4e,93)) + HX_("LinkNinja via itch.io\n",28,ef,51,1c)) + HX_("Hari Vallath\n",70,e9,4b,be)) + HX_("\n",0a,00,00,00)) + HX_("MENU BACKGROUND\n",5b,1c,f5,cc)) + HX_("NASA/JPL Caltech\n",6e,7f,7c,b4)) + HX_("\n",0a,00,00,00)) + HX_("LEVEL BACKGROUND\n",a0,6f,af,0c)) + HX_("Screaming Brain Studios via OpenGameArt.org\n",59,e3,37,9a)) + HX_("\n",0a,00,00,00)) + HX_("CONCEPT ARTIST\n",8b,dd,33,9e)) + HX_("Kego Wigwas\n",78,d5,42,d0)) + HX_("\n",0a,00,00,00)) + HX_("MUSIC\n",e5,6b,9e,f1)) + HX_("\n",0a,00,00,00)) + HX_("Mysteries\n",ed,c4,51,5f)) + HX_("Infrared Scale\n",ff,6f,f7,dd)) + HX_("\n",0a,00,00,00)) + HX_("The Final Battle\n",d9,5c,39,03)) + HX_("Infrared Scale\n",ff,6f,f7,dd)) + HX_("\n",0a,00,00,00)) + HX_("MAZE\n",2b,10,16,81)) + HX_("Density & Time\n",6b,0f,4c,55)) + HX_("\n",0a,00,00,00)) + HX_("SOUND EFFECTS\n",b9,a2,83,dc)) + HX_("Driken5482 via Pixabay\n",92,99,b8,d7)) + HX_("freesound_community via Pixabay\n",b7,4e,d9,c4)) + HX_("Data_pion via Pixabay\n",17,f5,21,76)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("PROJECT MANAGER\n",64,37,56,ad)) + HX_("Hari Vallath\n",70,e9,4b,be)) + HX_("\n",0a,00,00,00)) + HX_("DOCUMENTATION MANAGERS\n",de,85,25,bd)) + HX_("Hari Vallath\n",70,e9,4b,be)) + HX_("Kego Wigwas\n",78,d5,42,d0)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("QA ANALYSTS\n",a9,44,dd,f3)) + HX_("Kego Wigwas\n",78,d5,42,d0)) + HX_("Hari Vallath\n",70,e9,4b,be)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("Lakehead University\n",0b,9d,07,5d)) + HX_("COMP-4478-FA\n",c1,6c,af,e4)) + HX_("Dr. Sabah Mohammed\n",ab,ec,cb,ff)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("Press 'Credits' to close panel.",ce,08,1b,b6)),null(),null());
-HXLINE( 223)		this->creditsText->setFormat(null(),12,-1,HX_("left",07,08,b0,47),null(),null(),null());
-HXLINE( 224)		this->creditsText->set_visible(false);
-HXLINE( 225)		this->add(this->creditsText);
-HXLINE( 227)		Float _hx_tmp10 = (this->creditsPanel->x + 10);
-HXDLIN( 227)		Float _hx_tmp11 = (( (Float)(::flixel::FlxG_obj::height) ) / ( (Float)(2) ));
-HXDLIN( 227)		this->rulesText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,_hx_tmp10,_hx_tmp11,(this->creditsPanel->get_width() - ( (Float)(20) )),(((((((((((((HX_("HOW TO PLAY:\n\n",11,1d,1f,1c) + HX_("1. WASD to move\n",96,c4,ab,a5)) + HX_("2. LMB to shoot\n",ad,0f,05,7c)) + HX_("3. SHIFT/RMB to dodge\n",6d,70,ce,b0)) + HX_("4. SPACE to use SUPER\n",ed,78,9b,d1)) + HX_("5. Hit asteroids/enemies to charge SUPER\n",db,f3,03,ee)) + HX_("6. Destroy the asteroid shower\n",b8,65,ee,a8)) + HX_("7. Clear the enemy drones to advance\n",2b,e6,4d,d2)) + HX_("8. Defeat ENEMY LEADERs to gain HP\n",75,9b,2c,63)) + HX_("9. Defeat all ENEMY LEADERS to WIN!\n",0f,a7,96,14)) + HX_("10. R to restart\n",61,b0,d2,1d)) + HX_("11. ESC to pause\n",3c,c6,b1,b1)) + HX_("\n",0a,00,00,00)) + HX_("Press 'How To Play' to close panel.",df,74,05,b9)),null(),null());
-HXLINE( 244)		 ::flixel::text::FlxText _hx_tmp12 = this->rulesText;
-HXDLIN( 244)		Float _hx_tmp13 = (( (Float)(::flixel::FlxG_obj::height) ) / ( (Float)(2) ));
-HXDLIN( 244)		_hx_tmp12->set_y(((_hx_tmp13 - (this->rulesText->get_height() / ( (Float)(2) ))) - ( (Float)(60) )));
-HXLINE( 245)		this->rulesText->setFormat(null(),12,-1,HX_("left",07,08,b0,47),null(),null(),null());
-HXLINE( 246)		this->rulesText->set_visible(false);
-HXLINE( 247)		this->add(this->rulesText);
+HXDLIN( 121)		this->creditsText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,_hx_tmp8,_hx_tmp9,(this->creditsPanel->get_width() - ( (Float)(20) )),(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((HX_("SINGLE SPAGETTY Games\n",3a,48,0a,4c) + HX_("presents\n",f2,93,9d,95)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("LEFT: ALIENED\n",b1,db,5a,c7)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("Asteroid-Shooter in HaxeFlixel\n",73,cf,e4,11)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("PROGRAMMERS\n",ed,1b,4b,d9)) + HX_("\n",0a,00,00,00)) + HX_("CORE PROGRAMMERS\n",4e,17,58,80)) + HX_("Kego Wigwas\n",78,d5,42,d0)) + HX_("Hari Vallath\n",70,e9,4b,be)) + HX_("\n",0a,00,00,00)) + HX_("ADDITIONAL PROGRAMMERS\n",c6,1a,52,47)) + HX_("Hari Vallath\n",70,e9,4b,be)) + HX_("Kego Wigwas\n",78,d5,42,d0)) + HX_("\n",0a,00,00,00)) + HX_("UI PROGRAMMERS\n",39,9d,53,8c)) + HX_("Niraaj Harshadan\n",79,b5,29,52)) + HX_("Nihar Poojari\n",2e,cf,41,08)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("ART & SOUND DESIGN\n",44,f4,de,90)) + HX_("\n",0a,00,00,00)) + HX_("ART & SOUND DESIGNER\n",b7,99,e4,bd)) + HX_("Niraaj Harshadan\n",79,b5,29,52)) + HX_("\n",0a,00,00,00)) + HX_("SPRITES\n",9c,9b,4e,93)) + HX_("LinkNinja via itch.io\n",28,ef,51,1c)) + HX_("Hari Vallath\n",70,e9,4b,be)) + HX_("\n",0a,00,00,00)) + HX_("MENU BACKGROUND\n",5b,1c,f5,cc)) + HX_("NASA/JPL Caltech\n",6e,7f,7c,b4)) + HX_("\n",0a,00,00,00)) + HX_("LEVEL BACKGROUND\n",a0,6f,af,0c)) + HX_("Screaming Brain Studios via OpenGameArt.org\n",59,e3,37,9a)) + HX_("\n",0a,00,00,00)) + HX_("CONCEPT ARTIST\n",8b,dd,33,9e)) + HX_("Kego Wigwas\n",78,d5,42,d0)) + HX_("\n",0a,00,00,00)) + HX_("MUSIC\n",e5,6b,9e,f1)) + HX_("\n",0a,00,00,00)) + HX_("Mysteries\n",ed,c4,51,5f)) + HX_("Infrared Scale\n",ff,6f,f7,dd)) + HX_("\n",0a,00,00,00)) + HX_("The Final Battle\n",d9,5c,39,03)) + HX_("Infrared Scale\n",ff,6f,f7,dd)) + HX_("\n",0a,00,00,00)) + HX_("MAZE\n",2b,10,16,81)) + HX_("Density & Time\n",6b,0f,4c,55)) + HX_("\n",0a,00,00,00)) + HX_("SOUND EFFECTS\n",b9,a2,83,dc)) + HX_("Driken5482 via Pixabay\n",92,99,b8,d7)) + HX_("freesound_community via Pixabay\n",b7,4e,d9,c4)) + HX_("Data_pion via Pixabay\n",17,f5,21,76)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("PROJECT MANAGER\n",64,37,56,ad)) + HX_("Hari Vallath\n",70,e9,4b,be)) + HX_("\n",0a,00,00,00)) + HX_("DOCUMENTATION MANAGERS\n",de,85,25,bd)) + HX_("Hari Vallath\n",70,e9,4b,be)) + HX_("Kego Wigwas\n",78,d5,42,d0)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("QA ANALYSTS\n",a9,44,dd,f3)) + HX_("Kego Wigwas\n",78,d5,42,d0)) + HX_("Hari Vallath\n",70,e9,4b,be)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("Created for\n",39,1e,16,62)) + HX_("Lakehead University\n",0b,9d,07,5d)) + HX_("COMP-4478-FA Game Programming\n",08,f5,48,47)) + HX_("Dr. Sabah Mohammed\n",ab,ec,cb,ff)) + HX_("2025 +\n",3e,41,7c,3d)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("\n",0a,00,00,00)) + HX_("Press 'Credits' to close panel.",ce,08,1b,b6)),null(),null());
+HXLINE( 222)		this->creditsText->setFormat(null(),12,-1,HX_("left",07,08,b0,47),null(),null(),null());
+HXLINE( 223)		this->creditsText->set_visible(false);
+HXLINE( 224)		this->add(this->creditsText);
+HXLINE( 226)		Float _hx_tmp10 = (this->creditsPanel->x + 10);
+HXDLIN( 226)		Float _hx_tmp11 = (( (Float)(::flixel::FlxG_obj::height) ) / ( (Float)(2) ));
+HXDLIN( 226)		this->rulesText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,_hx_tmp10,_hx_tmp11,(this->creditsPanel->get_width() - ( (Float)(20) )),(((((((((((((HX_("HOW TO PLAY:\n\n",11,1d,1f,1c) + HX_("1. WASD to move\n",96,c4,ab,a5)) + HX_("2. LMB to shoot\n",ad,0f,05,7c)) + HX_("3. SHIFT/RMB to dodge\n",6d,70,ce,b0)) + HX_("4. SPACE to use SUPER\n",ed,78,9b,d1)) + HX_("5. Hit asteroids/enemies to charge SUPER\n",db,f3,03,ee)) + HX_("6. Destroy the asteroid shower\n",b8,65,ee,a8)) + HX_("7. Clear the enemy drones to advance\n",2b,e6,4d,d2)) + HX_("8. Defeat ENEMY LEADERs to gain HP\n",75,9b,2c,63)) + HX_("9. Defeat all ENEMY LEADERS to WIN!\n",0f,a7,96,14)) + HX_("10. R to restart\n",61,b0,d2,1d)) + HX_("11. ESC to pause\n",3c,c6,b1,b1)) + HX_("\n",0a,00,00,00)) + HX_("Press 'How To Play' to close panel.",df,74,05,b9)),null(),null());
+HXLINE( 243)		 ::flixel::text::FlxText _hx_tmp12 = this->rulesText;
+HXDLIN( 243)		Float _hx_tmp13 = (( (Float)(::flixel::FlxG_obj::height) ) / ( (Float)(2) ));
+HXDLIN( 243)		_hx_tmp12->set_y(((_hx_tmp13 - (this->rulesText->get_height() / ( (Float)(2) ))) - ( (Float)(60) )));
+HXLINE( 244)		this->rulesText->setFormat(null(),12,-1,HX_("left",07,08,b0,47),null(),null(),null());
+HXLINE( 245)		this->rulesText->set_visible(false);
+HXLINE( 246)		this->add(this->rulesText);
             	}
 
 
 void MenuState_obj::closeGame(){
-            	HX_STACKFRAME(&_hx_pos_1f119275e66a7b90_251_closeGame)
-HXDLIN( 251)		::lime::_hx_system::System_obj::exit(0);
+            	HX_STACKFRAME(&_hx_pos_1f119275e66a7b90_250_closeGame)
+HXDLIN( 250)		::lime::_hx_system::System_obj::exit(0);
             	}
 
 
@@ -277,74 +277,74 @@ HX_DEFINE_DYNAMIC_FUNC0(MenuState_obj,closeGame,(void))
 void MenuState_obj::clickPlay(){
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(0)
             		 ::PlayState _hx_run(){
-            			HX_GC_STACKFRAME(&_hx_pos_1f119275e66a7b90_256_clickPlay)
-HXDLIN( 256)			return  ::PlayState_obj::__alloc( HX_CTX );
+            			HX_GC_STACKFRAME(&_hx_pos_1f119275e66a7b90_255_clickPlay)
+HXDLIN( 255)			return  ::PlayState_obj::__alloc( HX_CTX );
             		}
             		HX_END_LOCAL_FUNC0(return)
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_1, ::Dynamic,nextState, ::flixel::FlxState,stateOnCall) HXARGC(0)
             		void _hx_run(){
-            			HX_STACKFRAME(&_hx_pos_1f119275e66a7b90_256_clickPlay)
-HXDLIN( 256)			if (::hx::IsInstanceEq( ::flixel::FlxG_obj::game->_state,stateOnCall )) {
-HXDLIN( 256)				::flixel::FlxG_obj::game->_nextState = nextState;
+            			HX_STACKFRAME(&_hx_pos_1f119275e66a7b90_255_clickPlay)
+HXDLIN( 255)			if (::hx::IsInstanceEq( ::flixel::FlxG_obj::game->_state,stateOnCall )) {
+HXDLIN( 255)				::flixel::FlxG_obj::game->_nextState = nextState;
             			}
             			else {
-HXDLIN( 256)				::flixel::FlxG_obj::log->advanced(HX_("`onOutroComplete` was called after the state was switched. This will be ignored",46,b2,58,c7),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true,::hx::SourceInfo(HX_("flixel/FlxG.hx",36,68,17,8e),385,HX_("flixel.FlxG",07,ab,3b,0e),HX_("switchState",7d,07,8b,77)));
+HXDLIN( 255)				::flixel::FlxG_obj::log->advanced(HX_("`onOutroComplete` was called after the state was switched. This will be ignored",46,b2,58,c7),::flixel::_hx_system::debug::log::LogStyle_obj::WARNING,true,::hx::SourceInfo(HX_("flixel/FlxG.hx",36,68,17,8e),385,HX_("flixel.FlxG",07,ab,3b,0e),HX_("switchState",7d,07,8b,77)));
             			}
             		}
             		HX_END_LOCAL_FUNC0((void))
 
-            	HX_STACKFRAME(&_hx_pos_1f119275e66a7b90_256_clickPlay)
-HXDLIN( 256)		 ::Dynamic nextState = ::flixel::util::typeLimit::_NextState::NextState_Impl__obj::fromMaker( ::Dynamic(new _hx_Closure_0()));
-HXDLIN( 256)		 ::flixel::FlxState stateOnCall = ::flixel::FlxG_obj::game->_state;
-HXDLIN( 256)		::flixel::FlxG_obj::game->_state->startOutro( ::Dynamic(new _hx_Closure_1(nextState,stateOnCall)));
+            	HX_STACKFRAME(&_hx_pos_1f119275e66a7b90_255_clickPlay)
+HXDLIN( 255)		 ::Dynamic nextState = ::flixel::util::typeLimit::_NextState::NextState_Impl__obj::fromMaker( ::Dynamic(new _hx_Closure_0()));
+HXDLIN( 255)		 ::flixel::FlxState stateOnCall = ::flixel::FlxG_obj::game->_state;
+HXDLIN( 255)		::flixel::FlxG_obj::game->_state->startOutro( ::Dynamic(new _hx_Closure_1(nextState,stateOnCall)));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(MenuState_obj,clickPlay,(void))
 
 void MenuState_obj::update(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_1f119275e66a7b90_265_update)
-HXLINE( 266)		this->super::update(elapsed);
-HXLINE( 271)		bool _hx_tmp;
-HXDLIN( 271)		Float _hx_tmp1 = this->bg->get_width();
-HXDLIN( 271)		if ((_hx_tmp1 == ::flixel::FlxG_obj::width)) {
-HXLINE( 271)			Float _hx_tmp2 = this->bg->get_height();
-HXDLIN( 271)			_hx_tmp = (_hx_tmp2 != ::flixel::FlxG_obj::height);
+            	HX_STACKFRAME(&_hx_pos_1f119275e66a7b90_264_update)
+HXLINE( 265)		this->super::update(elapsed);
+HXLINE( 270)		bool _hx_tmp;
+HXDLIN( 270)		Float _hx_tmp1 = this->bg->get_width();
+HXDLIN( 270)		if ((_hx_tmp1 == ::flixel::FlxG_obj::width)) {
+HXLINE( 270)			Float _hx_tmp2 = this->bg->get_height();
+HXDLIN( 270)			_hx_tmp = (_hx_tmp2 != ::flixel::FlxG_obj::height);
             		}
             		else {
-HXLINE( 271)			_hx_tmp = true;
+HXLINE( 270)			_hx_tmp = true;
             		}
-HXDLIN( 271)		if (_hx_tmp) {
-HXLINE( 273)			this->scaleBackgroundToCover(this->bg,::flixel::FlxG_obj::width,::flixel::FlxG_obj::height);
-HXLINE( 274)			 ::flixel::FlxSprite _hx_tmp3 = this->bg;
-HXDLIN( 274)			int _hx_tmp4 = ::flixel::FlxG_obj::width;
-HXDLIN( 274)			_hx_tmp3->set_x(((( (Float)(_hx_tmp4) ) - this->bg->get_width()) / ( (Float)(2) )));
-HXLINE( 275)			 ::flixel::FlxSprite _hx_tmp5 = this->bg;
-HXDLIN( 275)			int _hx_tmp6 = ::flixel::FlxG_obj::height;
-HXDLIN( 275)			_hx_tmp5->set_y(((( (Float)(_hx_tmp6) ) - this->bg->get_height()) / ( (Float)(2) )));
+HXDLIN( 270)		if (_hx_tmp) {
+HXLINE( 272)			this->scaleBackgroundToCover(this->bg,::flixel::FlxG_obj::width,::flixel::FlxG_obj::height);
+HXLINE( 273)			 ::flixel::FlxSprite _hx_tmp3 = this->bg;
+HXDLIN( 273)			int _hx_tmp4 = ::flixel::FlxG_obj::width;
+HXDLIN( 273)			_hx_tmp3->set_x(((( (Float)(_hx_tmp4) ) - this->bg->get_width()) / ( (Float)(2) )));
+HXLINE( 274)			 ::flixel::FlxSprite _hx_tmp5 = this->bg;
+HXDLIN( 274)			int _hx_tmp6 = ::flixel::FlxG_obj::height;
+HXDLIN( 274)			_hx_tmp5->set_y(((( (Float)(_hx_tmp6) ) - this->bg->get_height()) / ( (Float)(2) )));
             		}
-HXLINE( 279)		if (this->creditsActive) {
-HXLINE( 280)			 ::flixel::text::FlxText fh = this->creditsText;
-HXDLIN( 280)			fh->set_y((fh->y - (this->creditsScrollSpeed * elapsed)));
-HXLINE( 281)			Float _hx_tmp7 = this->creditsText->y;
-HXDLIN( 281)			Float _hx_tmp8 = (_hx_tmp7 + this->creditsText->get_height());
-HXDLIN( 281)			if ((_hx_tmp8 < this->creditsPanel->y)) {
-HXLINE( 283)				 ::flixel::text::FlxText _hx_tmp9 = this->creditsText;
-HXDLIN( 283)				Float _hx_tmp10 = this->creditsPanel->y;
-HXDLIN( 283)				_hx_tmp9->set_y((_hx_tmp10 + this->creditsPanel->get_height()));
+HXLINE( 278)		if (this->creditsActive) {
+HXLINE( 279)			 ::flixel::text::FlxText fh = this->creditsText;
+HXDLIN( 279)			fh->set_y((fh->y - (this->creditsScrollSpeed * elapsed)));
+HXLINE( 280)			Float _hx_tmp7 = this->creditsText->y;
+HXDLIN( 280)			Float _hx_tmp8 = (_hx_tmp7 + this->creditsText->get_height());
+HXDLIN( 280)			if ((_hx_tmp8 < this->creditsPanel->y)) {
+HXLINE( 282)				 ::flixel::text::FlxText _hx_tmp9 = this->creditsText;
+HXDLIN( 282)				Float _hx_tmp10 = this->creditsPanel->y;
+HXDLIN( 282)				_hx_tmp9->set_y((_hx_tmp10 + this->creditsPanel->get_height()));
             			}
             		}
             	}
 
 
 void MenuState_obj::showRules(){
-            	HX_STACKFRAME(&_hx_pos_1f119275e66a7b90_289_showRules)
-HXLINE( 290)		this->rulesText->set_visible(!(this->rulesText->visible));
-HXLINE( 291)		this->creditsPanel->set_visible(this->rulesText->visible);
-HXLINE( 293)		if (this->rulesText->visible) {
-HXLINE( 295)			this->creditsText->set_visible(false);
-HXLINE( 296)			this->creditsActive = false;
+            	HX_STACKFRAME(&_hx_pos_1f119275e66a7b90_288_showRules)
+HXLINE( 289)		this->rulesText->set_visible(!(this->rulesText->visible));
+HXLINE( 290)		this->creditsPanel->set_visible(this->rulesText->visible);
+HXLINE( 292)		if (this->rulesText->visible) {
+HXLINE( 294)			this->creditsText->set_visible(false);
+HXLINE( 295)			this->creditsActive = false;
             		}
             	}
 
@@ -352,20 +352,20 @@ HXLINE( 296)			this->creditsActive = false;
 HX_DEFINE_DYNAMIC_FUNC0(MenuState_obj,showRules,(void))
 
 void MenuState_obj::showCredits(){
-            	HX_STACKFRAME(&_hx_pos_1f119275e66a7b90_301_showCredits)
-HXLINE( 302)		this->creditsText->set_visible(!(this->creditsText->visible));
-HXLINE( 303)		this->creditsPanel->set_visible(this->creditsText->visible);
-HXLINE( 305)		if (this->creditsText->visible) {
-HXLINE( 307)			this->rulesText->set_visible(false);
+            	HX_STACKFRAME(&_hx_pos_1f119275e66a7b90_300_showCredits)
+HXLINE( 301)		this->creditsText->set_visible(!(this->creditsText->visible));
+HXLINE( 302)		this->creditsPanel->set_visible(this->creditsText->visible);
+HXLINE( 304)		if (this->creditsText->visible) {
+HXLINE( 306)			this->rulesText->set_visible(false);
             		}
-HXLINE( 310)		if (this->creditsText->visible) {
-HXLINE( 312)			 ::flixel::text::FlxText _hx_tmp = this->creditsText;
-HXDLIN( 312)			Float _hx_tmp1 = this->creditsPanel->y;
-HXDLIN( 312)			_hx_tmp->set_y((_hx_tmp1 + this->creditsPanel->get_height()));
-HXLINE( 313)			this->creditsActive = true;
+HXLINE( 309)		if (this->creditsText->visible) {
+HXLINE( 311)			 ::flixel::text::FlxText _hx_tmp = this->creditsText;
+HXDLIN( 311)			Float _hx_tmp1 = this->creditsPanel->y;
+HXDLIN( 311)			_hx_tmp->set_y((_hx_tmp1 + this->creditsPanel->get_height()));
+HXLINE( 312)			this->creditsActive = true;
             		}
             		else {
-HXLINE( 315)			this->creditsActive = false;
+HXLINE( 314)			this->creditsActive = false;
             		}
             	}
 

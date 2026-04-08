@@ -90,25 +90,25 @@
 #include <openfl/display/IBitmapDrawable.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_ae5f66cd0c638a94_320_new,"OptionsState","new",0x73d32065,"OptionsState.new","MenuState.hx",320,0xdfbcb22c)
-HX_LOCAL_STACK_FRAME(_hx_pos_ae5f66cd0c638a94_345_scaleBackgroundToCover,"OptionsState","scaleBackgroundToCover",0xd082369f,"OptionsState.scaleBackgroundToCover","MenuState.hx",345,0xdfbcb22c)
-HX_LOCAL_STACK_FRAME(_hx_pos_ae5f66cd0c638a94_360_create,"OptionsState","create",0xe6502817,"OptionsState.create","MenuState.hx",360,0xdfbcb22c)
-HX_LOCAL_STACK_FRAME(_hx_pos_ae5f66cd0c638a94_409_previewShip,"OptionsState","previewShip",0xdf31dce9,"OptionsState.previewShip","MenuState.hx",409,0xdfbcb22c)
-HX_LOCAL_STACK_FRAME(_hx_pos_ae5f66cd0c638a94_428_backToMenu,"OptionsState","backToMenu",0x28a380dc,"OptionsState.backToMenu","MenuState.hx",428,0xdfbcb22c)
-HX_LOCAL_STACK_FRAME(_hx_pos_ae5f66cd0c638a94_432_cycleShipChoice,"OptionsState","cycleShipChoice",0x8fb88808,"OptionsState.cycleShipChoice","MenuState.hx",432,0xdfbcb22c)
-HX_LOCAL_STACK_FRAME(_hx_pos_ae5f66cd0c638a94_447_saveShipChoice,"OptionsState","saveShipChoice",0x983929f5,"OptionsState.saveShipChoice","MenuState.hx",447,0xdfbcb22c)
-HX_LOCAL_STACK_FRAME(_hx_pos_ae5f66cd0c638a94_456_updateShipButtonText,"OptionsState","updateShipButtonText",0x975024df,"OptionsState.updateShipButtonText","MenuState.hx",456,0xdfbcb22c)
-HX_LOCAL_STACK_FRAME(_hx_pos_ae5f66cd0c638a94_329_boot,"OptionsState","boot",0xdd02388d,"OptionsState.boot","MenuState.hx",329,0xdfbcb22c)
+HX_DEFINE_STACK_FRAME(_hx_pos_ae5f66cd0c638a94_319_new,"OptionsState","new",0x73d32065,"OptionsState.new","MenuState.hx",319,0xdfbcb22c)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae5f66cd0c638a94_344_scaleBackgroundToCover,"OptionsState","scaleBackgroundToCover",0xd082369f,"OptionsState.scaleBackgroundToCover","MenuState.hx",344,0xdfbcb22c)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae5f66cd0c638a94_359_create,"OptionsState","create",0xe6502817,"OptionsState.create","MenuState.hx",359,0xdfbcb22c)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae5f66cd0c638a94_408_previewShip,"OptionsState","previewShip",0xdf31dce9,"OptionsState.previewShip","MenuState.hx",408,0xdfbcb22c)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae5f66cd0c638a94_427_backToMenu,"OptionsState","backToMenu",0x28a380dc,"OptionsState.backToMenu","MenuState.hx",427,0xdfbcb22c)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae5f66cd0c638a94_431_cycleShipChoice,"OptionsState","cycleShipChoice",0x8fb88808,"OptionsState.cycleShipChoice","MenuState.hx",431,0xdfbcb22c)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae5f66cd0c638a94_446_saveShipChoice,"OptionsState","saveShipChoice",0x983929f5,"OptionsState.saveShipChoice","MenuState.hx",446,0xdfbcb22c)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae5f66cd0c638a94_455_updateShipButtonText,"OptionsState","updateShipButtonText",0x975024df,"OptionsState.updateShipButtonText","MenuState.hx",455,0xdfbcb22c)
+HX_LOCAL_STACK_FRAME(_hx_pos_ae5f66cd0c638a94_328_boot,"OptionsState","boot",0xdd02388d,"OptionsState.boot","MenuState.hx",328,0xdfbcb22c)
 
 void OptionsState_obj::__construct(){
-            	HX_GC_STACKFRAME(&_hx_pos_ae5f66cd0c638a94_320_new)
-HXLINE( 330)		this->padding = 10;
-HXLINE( 326)		this->currentShipNumber = 0;
-HXLINE( 334)		super::__construct(null());
-HXLINE( 336)		this->bg =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
-HXLINE( 337)		this->bg->loadGraphic(HX_("assets/images/MenuBackground.png",b3,d4,2b,01),false,0,0,false,null());
-HXLINE( 338)		this->add(this->bg);
-HXLINE( 340)		this->scaleBackgroundToCover(this->bg,::flixel::FlxG_obj::width,::flixel::FlxG_obj::height);
+            	HX_GC_STACKFRAME(&_hx_pos_ae5f66cd0c638a94_319_new)
+HXLINE( 329)		this->padding = 10;
+HXLINE( 325)		this->currentShipNumber = 0;
+HXLINE( 333)		super::__construct(null());
+HXLINE( 335)		this->bg =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
+HXLINE( 336)		this->bg->loadGraphic(HX_("assets/images/MenuBackground.png",b3,d4,2b,01),false,0,0,false,null());
+HXLINE( 337)		this->add(this->bg);
+HXLINE( 339)		this->scaleBackgroundToCover(this->bg,::flixel::FlxG_obj::width,::flixel::FlxG_obj::height);
             	}
 
 Dynamic OptionsState_obj::__CreateEmpty() { return new OptionsState_obj; }
@@ -143,238 +143,238 @@ bool OptionsState_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void OptionsState_obj::scaleBackgroundToCover( ::flixel::FlxSprite sprite,int targetWidth,int targetHeight){
-            	HX_STACKFRAME(&_hx_pos_ae5f66cd0c638a94_345_scaleBackgroundToCover)
-HXLINE( 346)		int originalWidth = sprite->graphic->bitmap->width;
-HXLINE( 347)		int originalHeight = sprite->graphic->bitmap->height;
-HXLINE( 349)		Float scaleX = (( (Float)(targetWidth) ) / ( (Float)(originalWidth) ));
-HXLINE( 350)		Float scaleY = (( (Float)(targetHeight) ) / ( (Float)(originalHeight) ));
-HXLINE( 353)		Float scale = ::Math_obj::max(scaleX,scaleY);
-HXLINE( 355)		{
-HXLINE( 355)			 ::flixel::math::FlxBasePoint this1 = sprite->scale;
-HXDLIN( 355)			this1->set_x(scale);
-HXDLIN( 355)			this1->set_y(scale);
+            	HX_STACKFRAME(&_hx_pos_ae5f66cd0c638a94_344_scaleBackgroundToCover)
+HXLINE( 345)		int originalWidth = sprite->graphic->bitmap->width;
+HXLINE( 346)		int originalHeight = sprite->graphic->bitmap->height;
+HXLINE( 348)		Float scaleX = (( (Float)(targetWidth) ) / ( (Float)(originalWidth) ));
+HXLINE( 349)		Float scaleY = (( (Float)(targetHeight) ) / ( (Float)(originalHeight) ));
+HXLINE( 352)		Float scale = ::Math_obj::max(scaleX,scaleY);
+HXLINE( 354)		{
+HXLINE( 354)			 ::flixel::math::FlxBasePoint this1 = sprite->scale;
+HXDLIN( 354)			this1->set_x(scale);
+HXDLIN( 354)			this1->set_y(scale);
             		}
-HXLINE( 356)		sprite->updateHitbox();
+HXLINE( 355)		sprite->updateHitbox();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC3(OptionsState_obj,scaleBackgroundToCover,(void))
 
 void OptionsState_obj::create(){
-            	HX_GC_STACKFRAME(&_hx_pos_ae5f66cd0c638a94_360_create)
-HXLINE( 361)		this->super::create();
-HXLINE( 363)		int startX = 25;
-HXLINE( 364)		Float startY = (( (Float)(::flixel::FlxG_obj::height) ) / ( (Float)(2) ));
-HXLINE( 366)		this->shipButton =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,startX,startY,HX_("",00,00,00,00),this->cycleShipChoice_dyn());
-HXLINE( 367)		this->add(this->shipButton);
-HXLINE( 368)		this->updateShipButtonText();
-HXLINE( 370)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN( 370)		Float _hx_tmp1 = this->shipButton->x;
-HXDLIN( 370)		Float _hx_tmp2 = (this->shipButton->y + (this->padding * 2));
-HXDLIN( 370)		this->volSlider =  ::flixel::addons::ui::FlxSlider_obj::__alloc( HX_CTX ,_hx_tmp,HX_("volume",da,29,53,5f),_hx_tmp1,_hx_tmp2,0,1,(::Std_obj::_hx_int(this->shipButton->get_width()) - 2),10,8,-1,null());
-HXLINE( 371)		::String sliderImg = HX_("assets/images/Slider.png",67,c7,62,5e);
-HXLINE( 372)		this->volSlider->handle->loadGraphic(sliderImg,null(),null(),null(),null(),null());
-HXLINE( 373)		this->volSlider->handle->updateHitbox();
-HXLINE( 375)		 ::flixel::FlxSprite _hx_tmp3 = this->volSlider->handle;
-HXDLIN( 375)		Float _hx_tmp4 = this->volSlider->body->y;
-HXDLIN( 375)		Float _hx_tmp5 = (_hx_tmp4 - (this->volSlider->handle->get_height() / ( (Float)(2) )));
-HXDLIN( 375)		_hx_tmp3->set_y((_hx_tmp5 + (this->volSlider->body->get_height() / ( (Float)(2) ))));
-HXLINE( 377)		this->volSlider->setTexts(HX_("Volume",fa,9d,e7,93),false,HX_("0",30,00,00,00),HX_("100",71,58,25,00),6);
-HXLINE( 378)		this->add(this->volSlider);
-HXLINE( 380)		 ::flixel::addons::ui::FlxSlider fh = this->volSlider;
-HXDLIN( 380)		fh->set_x((fh->x + -5));
-HXLINE( 381)		this->volSlider->minLabel->set_visible(false);
-HXLINE( 382)		this->volSlider->maxLabel->set_visible(false);
-HXLINE( 383)		this->volSlider->nameLabel->set_y((this->volSlider->handle->y - ( (Float)(10) )));
-HXLINE( 384)		this->volSlider->nameLabel->setFormat(null(),8,-1,HX_("left",07,08,b0,47),null(),null(),null());
-HXLINE( 386)		 ::flixel::ui::FlxButton backButton =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,0,0,HX_("Back",47,06,ea,2b),this->backToMenu_dyn());
-HXLINE( 388)		backButton->set_x(this->shipButton->x);
-HXLINE( 389)		Float _hx_tmp6 = (( (Float)(::flixel::FlxG_obj::height) ) / ( (Float)(2) ));
-HXDLIN( 389)		Float _hx_tmp7 = this->shipButton->get_height();
-HXDLIN( 389)		backButton->set_y((_hx_tmp6 + (( (Float)(4) ) * (_hx_tmp7 + this->padding))));
-HXLINE( 390)		this->add(backButton);
-HXLINE( 392)		this->shipPreviewBG =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
-HXLINE( 393)		this->shipPreviewBG->makeGraphic(70,70,-16777216,null(),null());
-HXLINE( 394)		 ::flixel::FlxSprite _hx_tmp8 = this->shipPreviewBG;
-HXDLIN( 394)		Float _hx_tmp9 = this->shipButton->x;
-HXDLIN( 394)		Float _hx_tmp10 = (_hx_tmp9 + (this->shipButton->get_width() / ( (Float)(2) )));
-HXDLIN( 394)		_hx_tmp8->set_x((_hx_tmp10 - (this->shipPreviewBG->get_width() / ( (Float)(2) ))));
-HXLINE( 395)		 ::flixel::FlxSprite _hx_tmp11 = this->shipPreviewBG;
-HXDLIN( 395)		Float _hx_tmp12 = this->shipButton->y;
-HXDLIN( 395)		Float _hx_tmp13 = (_hx_tmp12 - this->shipPreviewBG->get_height());
-HXDLIN( 395)		_hx_tmp11->set_y((_hx_tmp13 - ( (Float)(this->padding) )));
-HXLINE( 396)		this->add(this->shipPreviewBG);
-HXLINE( 398)		this->shipPreview =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
-HXLINE( 399)		 ::flixel::FlxSprite _hx_tmp14 = this->shipPreview;
-HXDLIN( 399)		_hx_tmp14->loadGraphic(this->previewShip(),false,0,0,null(),null());
-HXLINE( 400)		{
-HXLINE( 400)			 ::flixel::math::FlxBasePoint this1 = this->shipPreview->scale;
-HXDLIN( 400)			this1->set_x(( (Float)(2) ));
-HXDLIN( 400)			this1->set_y(( (Float)(2) ));
+            	HX_GC_STACKFRAME(&_hx_pos_ae5f66cd0c638a94_359_create)
+HXLINE( 360)		this->super::create();
+HXLINE( 362)		int startX = 25;
+HXLINE( 363)		Float startY = (( (Float)(::flixel::FlxG_obj::height) ) / ( (Float)(2) ));
+HXLINE( 365)		this->shipButton =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,startX,startY,HX_("",00,00,00,00),this->cycleShipChoice_dyn());
+HXLINE( 366)		this->add(this->shipButton);
+HXLINE( 367)		this->updateShipButtonText();
+HXLINE( 369)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN( 369)		Float _hx_tmp1 = this->shipButton->x;
+HXDLIN( 369)		Float _hx_tmp2 = (this->shipButton->y + (this->padding * 2));
+HXDLIN( 369)		this->volSlider =  ::flixel::addons::ui::FlxSlider_obj::__alloc( HX_CTX ,_hx_tmp,HX_("volume",da,29,53,5f),_hx_tmp1,_hx_tmp2,0,1,(::Std_obj::_hx_int(this->shipButton->get_width()) - 2),10,8,-1,null());
+HXLINE( 370)		::String sliderImg = HX_("assets/images/Slider.png",67,c7,62,5e);
+HXLINE( 371)		this->volSlider->handle->loadGraphic(sliderImg,null(),null(),null(),null(),null());
+HXLINE( 372)		this->volSlider->handle->updateHitbox();
+HXLINE( 374)		 ::flixel::FlxSprite _hx_tmp3 = this->volSlider->handle;
+HXDLIN( 374)		Float _hx_tmp4 = this->volSlider->body->y;
+HXDLIN( 374)		Float _hx_tmp5 = (_hx_tmp4 - (this->volSlider->handle->get_height() / ( (Float)(2) )));
+HXDLIN( 374)		_hx_tmp3->set_y((_hx_tmp5 + (this->volSlider->body->get_height() / ( (Float)(2) ))));
+HXLINE( 376)		this->volSlider->setTexts(HX_("Volume",fa,9d,e7,93),false,HX_("0",30,00,00,00),HX_("100",71,58,25,00),6);
+HXLINE( 377)		this->add(this->volSlider);
+HXLINE( 379)		 ::flixel::addons::ui::FlxSlider fh = this->volSlider;
+HXDLIN( 379)		fh->set_x((fh->x + -5));
+HXLINE( 380)		this->volSlider->minLabel->set_visible(false);
+HXLINE( 381)		this->volSlider->maxLabel->set_visible(false);
+HXLINE( 382)		this->volSlider->nameLabel->set_y((this->volSlider->handle->y - ( (Float)(10) )));
+HXLINE( 383)		this->volSlider->nameLabel->setFormat(null(),8,-1,HX_("left",07,08,b0,47),null(),null(),null());
+HXLINE( 385)		 ::flixel::ui::FlxButton backButton =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,0,0,HX_("Back",47,06,ea,2b),this->backToMenu_dyn());
+HXLINE( 387)		backButton->set_x(this->shipButton->x);
+HXLINE( 388)		Float _hx_tmp6 = (( (Float)(::flixel::FlxG_obj::height) ) / ( (Float)(2) ));
+HXDLIN( 388)		Float _hx_tmp7 = this->shipButton->get_height();
+HXDLIN( 388)		backButton->set_y((_hx_tmp6 + (( (Float)(4) ) * (_hx_tmp7 + this->padding))));
+HXLINE( 389)		this->add(backButton);
+HXLINE( 391)		this->shipPreviewBG =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
+HXLINE( 392)		this->shipPreviewBG->makeGraphic(70,70,-16777216,null(),null());
+HXLINE( 393)		 ::flixel::FlxSprite _hx_tmp8 = this->shipPreviewBG;
+HXDLIN( 393)		Float _hx_tmp9 = this->shipButton->x;
+HXDLIN( 393)		Float _hx_tmp10 = (_hx_tmp9 + (this->shipButton->get_width() / ( (Float)(2) )));
+HXDLIN( 393)		_hx_tmp8->set_x((_hx_tmp10 - (this->shipPreviewBG->get_width() / ( (Float)(2) ))));
+HXLINE( 394)		 ::flixel::FlxSprite _hx_tmp11 = this->shipPreviewBG;
+HXDLIN( 394)		Float _hx_tmp12 = this->shipButton->y;
+HXDLIN( 394)		Float _hx_tmp13 = (_hx_tmp12 - this->shipPreviewBG->get_height());
+HXDLIN( 394)		_hx_tmp11->set_y((_hx_tmp13 - ( (Float)(this->padding) )));
+HXLINE( 395)		this->add(this->shipPreviewBG);
+HXLINE( 397)		this->shipPreview =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
+HXLINE( 398)		 ::flixel::FlxSprite _hx_tmp14 = this->shipPreview;
+HXDLIN( 398)		_hx_tmp14->loadGraphic(this->previewShip(),false,0,0,null(),null());
+HXLINE( 399)		{
+HXLINE( 399)			 ::flixel::math::FlxBasePoint this1 = this->shipPreview->scale;
+HXDLIN( 399)			this1->set_x(( (Float)(2) ));
+HXDLIN( 399)			this1->set_y(( (Float)(2) ));
             		}
-HXLINE( 401)		this->shipPreview->updateHitbox();
-HXLINE( 403)		 ::flixel::FlxSprite _hx_tmp15 = this->shipPreview;
-HXDLIN( 403)		Float _hx_tmp16 = this->shipPreviewBG->x;
-HXDLIN( 403)		Float _hx_tmp17 = (_hx_tmp16 + (this->shipPreviewBG->get_width() / ( (Float)(2) )));
-HXDLIN( 403)		_hx_tmp15->set_x((_hx_tmp17 - (this->shipPreview->get_width() / ( (Float)(2) ))));
-HXLINE( 404)		 ::flixel::FlxSprite _hx_tmp18 = this->shipPreview;
-HXDLIN( 404)		Float _hx_tmp19 = this->shipPreviewBG->y;
-HXDLIN( 404)		Float _hx_tmp20 = (_hx_tmp19 + (this->shipPreviewBG->get_height() / ( (Float)(2) )));
-HXDLIN( 404)		_hx_tmp18->set_y((_hx_tmp20 - (this->shipPreview->get_height() / ( (Float)(2) ))));
-HXLINE( 405)		this->add(this->shipPreview);
+HXLINE( 400)		this->shipPreview->updateHitbox();
+HXLINE( 402)		 ::flixel::FlxSprite _hx_tmp15 = this->shipPreview;
+HXDLIN( 402)		Float _hx_tmp16 = this->shipPreviewBG->x;
+HXDLIN( 402)		Float _hx_tmp17 = (_hx_tmp16 + (this->shipPreviewBG->get_width() / ( (Float)(2) )));
+HXDLIN( 402)		_hx_tmp15->set_x((_hx_tmp17 - (this->shipPreview->get_width() / ( (Float)(2) ))));
+HXLINE( 403)		 ::flixel::FlxSprite _hx_tmp18 = this->shipPreview;
+HXDLIN( 403)		Float _hx_tmp19 = this->shipPreviewBG->y;
+HXDLIN( 403)		Float _hx_tmp20 = (_hx_tmp19 + (this->shipPreviewBG->get_height() / ( (Float)(2) )));
+HXDLIN( 403)		_hx_tmp18->set_y((_hx_tmp20 - (this->shipPreview->get_height() / ( (Float)(2) ))));
+HXLINE( 404)		this->add(this->shipPreview);
             	}
 
 
 ::String OptionsState_obj::previewShip(){
-            	HX_GC_STACKFRAME(&_hx_pos_ae5f66cd0c638a94_409_previewShip)
-HXLINE( 410)		 ::flixel::util::FlxSave save =  ::flixel::util::FlxSave_obj::__alloc( HX_CTX );
-HXLINE( 411)		save->bind(HX_("LeftAliened",bf,13,1c,8c),null(),null());
-HXLINE( 412)		::String asset;
-HXLINE( 413)		 ::Dynamic _hx_switch_0 =  ::Dynamic(save->data->__Field(HX_("shipChoice",3d,78,df,af),::hx::paccDynamic));
+            	HX_GC_STACKFRAME(&_hx_pos_ae5f66cd0c638a94_408_previewShip)
+HXLINE( 409)		 ::flixel::util::FlxSave save =  ::flixel::util::FlxSave_obj::__alloc( HX_CTX );
+HXLINE( 410)		save->bind(HX_("LeftAliened",bf,13,1c,8c),null(),null());
+HXLINE( 411)		::String asset;
+HXLINE( 412)		 ::Dynamic _hx_switch_0 =  ::Dynamic(save->data->__Field(HX_("shipChoice",3d,78,df,af),::hx::paccDynamic));
             		if (  (_hx_switch_0==0) ){
-HXLINE( 415)			asset = HX_("assets/images/Ship.png",c2,b1,55,c5);
-HXDLIN( 415)			goto _hx_goto_3;
+HXLINE( 414)			asset = HX_("assets/images/Ship.png",c2,b1,55,c5);
+HXDLIN( 414)			goto _hx_goto_3;
             		}
             		if (  (_hx_switch_0==1) ){
-HXLINE( 416)			asset = HX_("assets/images/Ship2.png",06,a0,a1,07);
-HXDLIN( 416)			goto _hx_goto_3;
+HXLINE( 415)			asset = HX_("assets/images/Ship2.png",06,a0,a1,07);
+HXDLIN( 415)			goto _hx_goto_3;
             		}
             		if (  (_hx_switch_0==2) ){
-HXLINE( 417)			asset = HX_("assets/images/Ship3.png",87,34,08,9b);
-HXDLIN( 417)			goto _hx_goto_3;
+HXLINE( 416)			asset = HX_("assets/images/Ship3.png",87,34,08,9b);
+HXDLIN( 416)			goto _hx_goto_3;
             		}
             		if (  (_hx_switch_0==3) ){
-HXLINE( 418)			asset = HX_("assets/images/Ship4.png",08,c9,6e,2e);
-HXDLIN( 418)			goto _hx_goto_3;
+HXLINE( 417)			asset = HX_("assets/images/Ship4.png",08,c9,6e,2e);
+HXDLIN( 417)			goto _hx_goto_3;
             		}
             		if (  (_hx_switch_0==4) ){
-HXLINE( 419)			asset = HX_("assets/images/Ship5.png",89,5d,d5,c1);
-HXDLIN( 419)			goto _hx_goto_3;
+HXLINE( 418)			asset = HX_("assets/images/Ship5.png",89,5d,d5,c1);
+HXDLIN( 418)			goto _hx_goto_3;
             		}
             		if (  (_hx_switch_0==5) ){
-HXLINE( 420)			asset = HX_("assets/images/Ship6.png",0a,f2,3b,55);
-HXDLIN( 420)			goto _hx_goto_3;
+HXLINE( 419)			asset = HX_("assets/images/Ship6.png",0a,f2,3b,55);
+HXDLIN( 419)			goto _hx_goto_3;
             		}
             		/* default */{
-HXLINE( 421)			asset = HX_("assets/images/Ship.png",c2,b1,55,c5);
+HXLINE( 420)			asset = HX_("assets/images/Ship.png",c2,b1,55,c5);
             		}
             		_hx_goto_3:;
-HXLINE( 423)		return asset;
+HXLINE( 422)		return asset;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(OptionsState_obj,previewShip,return )
 
 void OptionsState_obj::backToMenu(){
-            	HX_STACKFRAME(&_hx_pos_ae5f66cd0c638a94_428_backToMenu)
-HXDLIN( 428)		this->close();
+            	HX_STACKFRAME(&_hx_pos_ae5f66cd0c638a94_427_backToMenu)
+HXDLIN( 427)		this->close();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(OptionsState_obj,backToMenu,(void))
 
 void OptionsState_obj::cycleShipChoice(){
-            	HX_STACKFRAME(&_hx_pos_ae5f66cd0c638a94_432_cycleShipChoice)
-HXLINE( 433)		this->currentShipNumber++;
-HXLINE( 434)		if ((this->currentShipNumber >= ::OptionsState_obj::SHIP_MAX)) {
-HXLINE( 436)			this->currentShipNumber = 0;
+            	HX_STACKFRAME(&_hx_pos_ae5f66cd0c638a94_431_cycleShipChoice)
+HXLINE( 432)		this->currentShipNumber++;
+HXLINE( 433)		if ((this->currentShipNumber >= ::OptionsState_obj::SHIP_MAX)) {
+HXLINE( 435)			this->currentShipNumber = 0;
             		}
-HXLINE( 439)		this->saveShipChoice();
-HXLINE( 440)		this->updateShipButtonText();
-HXLINE( 441)		this->shipPreview->kill();
-HXLINE( 442)		 ::flixel::FlxSprite _hx_tmp = this->shipPreview;
-HXDLIN( 442)		_hx_tmp->loadGraphic(this->previewShip(),false,0,0,null(),null());
-HXLINE( 443)		this->shipPreview->revive();
+HXLINE( 438)		this->saveShipChoice();
+HXLINE( 439)		this->updateShipButtonText();
+HXLINE( 440)		this->shipPreview->kill();
+HXLINE( 441)		 ::flixel::FlxSprite _hx_tmp = this->shipPreview;
+HXDLIN( 441)		_hx_tmp->loadGraphic(this->previewShip(),false,0,0,null(),null());
+HXLINE( 442)		this->shipPreview->revive();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(OptionsState_obj,cycleShipChoice,(void))
 
 void OptionsState_obj::saveShipChoice(){
-            	HX_GC_STACKFRAME(&_hx_pos_ae5f66cd0c638a94_447_saveShipChoice)
-HXLINE( 448)		 ::flixel::util::FlxSave save =  ::flixel::util::FlxSave_obj::__alloc( HX_CTX );
-HXLINE( 449)		save->bind(HX_("LeftAliened",bf,13,1c,8c),null(),null());
-HXLINE( 450)		save->data->__SetField(HX_("shipChoice",3d,78,df,af),this->currentShipNumber,::hx::paccDynamic);
-HXLINE( 451)		save->flush(null());
-HXLINE( 452)		save->close(null());
+            	HX_GC_STACKFRAME(&_hx_pos_ae5f66cd0c638a94_446_saveShipChoice)
+HXLINE( 447)		 ::flixel::util::FlxSave save =  ::flixel::util::FlxSave_obj::__alloc( HX_CTX );
+HXLINE( 448)		save->bind(HX_("LeftAliened",bf,13,1c,8c),null(),null());
+HXLINE( 449)		save->data->__SetField(HX_("shipChoice",3d,78,df,af),this->currentShipNumber,::hx::paccDynamic);
+HXLINE( 450)		save->flush(null());
+HXLINE( 451)		save->close(null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(OptionsState_obj,saveShipChoice,(void))
 
 void OptionsState_obj::updateShipButtonText(){
-            	HX_GC_STACKFRAME(&_hx_pos_ae5f66cd0c638a94_456_updateShipButtonText)
-HXLINE( 457)		 ::flixel::util::FlxSave save =  ::flixel::util::FlxSave_obj::__alloc( HX_CTX );
-HXLINE( 458)		save->bind(HX_("LeftAliened",bf,13,1c,8c),null(),null());
-HXLINE( 460)		::String shipName = HX_("Missingno",07,25,93,4f);
-HXLINE( 462)		 ::Dynamic _hx_switch_0 =  ::Dynamic(save->data->__Field(HX_("shipChoice",3d,78,df,af),::hx::paccDynamic));
+            	HX_GC_STACKFRAME(&_hx_pos_ae5f66cd0c638a94_455_updateShipButtonText)
+HXLINE( 456)		 ::flixel::util::FlxSave save =  ::flixel::util::FlxSave_obj::__alloc( HX_CTX );
+HXLINE( 457)		save->bind(HX_("LeftAliened",bf,13,1c,8c),null(),null());
+HXLINE( 459)		::String shipName = HX_("Missingno",07,25,93,4f);
+HXLINE( 461)		 ::Dynamic _hx_switch_0 =  ::Dynamic(save->data->__Field(HX_("shipChoice",3d,78,df,af),::hx::paccDynamic));
             		if (  (_hx_switch_0==0) ){
-HXLINE( 464)			shipName = HX_("Guardian",f1,65,02,8d);
-HXDLIN( 464)			goto _hx_goto_8;
+HXLINE( 463)			shipName = HX_("Guardian",f1,65,02,8d);
+HXDLIN( 463)			goto _hx_goto_8;
             		}
             		if (  (_hx_switch_0==1) ){
-HXLINE( 465)			shipName = HX_("Odyssey",b8,10,a7,c8);
-HXDLIN( 465)			goto _hx_goto_8;
+HXLINE( 464)			shipName = HX_("Odyssey",b8,10,a7,c8);
+HXDLIN( 464)			goto _hx_goto_8;
             		}
             		if (  (_hx_switch_0==2) ){
-HXLINE( 466)			shipName = HX_("Beyonder",1c,05,a4,ba);
-HXDLIN( 466)			goto _hx_goto_8;
+HXLINE( 465)			shipName = HX_("Beyonder",1c,05,a4,ba);
+HXDLIN( 465)			goto _hx_goto_8;
             		}
             		if (  (_hx_switch_0==3) ){
-HXLINE( 467)			shipName = HX_("Turncoat",bc,58,64,f2);
-HXDLIN( 467)			goto _hx_goto_8;
+HXLINE( 466)			shipName = HX_("Turncoat",bc,58,64,f2);
+HXDLIN( 466)			goto _hx_goto_8;
             		}
             		if (  (_hx_switch_0==4) ){
-HXLINE( 468)			shipName = HX_("Developer",2a,c3,f1,9e);
-HXDLIN( 468)			goto _hx_goto_8;
+HXLINE( 467)			shipName = HX_("Developer",2a,c3,f1,9e);
+HXDLIN( 467)			goto _hx_goto_8;
             		}
             		if (  (_hx_switch_0==5) ){
-HXLINE( 469)			shipName = HX_("Thankless",23,a6,28,14);
-HXDLIN( 469)			goto _hx_goto_8;
+HXLINE( 468)			shipName = HX_("Thankless",23,a6,28,14);
+HXDLIN( 468)			goto _hx_goto_8;
             		}
             		/* default */{
             		}
             		_hx_goto_8:;
-HXLINE( 473)		if (::hx::IsNotNull( save->data->__Field(HX_("shipChoice",3d,78,df,af),::hx::paccDynamic) )) {
-HXLINE( 475)			this->currentShipNumber = ( (int)(save->data->__Field(HX_("shipChoice",3d,78,df,af),::hx::paccDynamic)) );
-HXLINE( 476)			{
-HXLINE( 476)				 ::flixel::ui::FlxButton _this = this->shipButton;
-HXDLIN( 476)				::String Text = (((this->currentShipNumber + 1) + HX_(": ",a6,32,00,00)) + shipName);
-HXDLIN( 476)				if (::hx::IsNull( _this->label )) {
-HXLINE( 476)					if (::hx::IsNotNull( Text )) {
-HXLINE( 476)						Float _this1 = _this->x;
-HXDLIN( 476)						Float _hx_tmp = (_this1 + _this->labelOffsets->__get(::flixel::ui::_FlxButton::FlxButtonState_Impl__obj::toInt(0)).StaticCast<  ::flixel::math::FlxBasePoint >()->x);
-HXDLIN( 476)						Float _this2 = _this->y;
-HXDLIN( 476)						_this->set_label( ::flixel::text::FlxText_obj::__alloc( HX_CTX ,_hx_tmp,(_this2 + _this->labelOffsets->__get(::flixel::ui::_FlxButton::FlxButtonState_Impl__obj::toInt(0)).StaticCast<  ::flixel::math::FlxBasePoint >()->y),80,Text,null(),null()));
-HXDLIN( 476)						_this->label->setFormat(null(),8,3355443,HX_("center",d5,25,db,05),null(),null(),null());
-HXDLIN( 476)						 ::flixel::text::FlxText _this3 = _this->label;
-HXDLIN( 476)						_this3->set_alpha(_this->labelAlphas->__get(::flixel::ui::_FlxButton::FlxButtonState_Impl__obj::toInt(_this->status)));
-HXDLIN( 476)						_this->label->drawFrame(true);
+HXLINE( 472)		if (::hx::IsNotNull( save->data->__Field(HX_("shipChoice",3d,78,df,af),::hx::paccDynamic) )) {
+HXLINE( 474)			this->currentShipNumber = ( (int)(save->data->__Field(HX_("shipChoice",3d,78,df,af),::hx::paccDynamic)) );
+HXLINE( 475)			{
+HXLINE( 475)				 ::flixel::ui::FlxButton _this = this->shipButton;
+HXDLIN( 475)				::String Text = (((this->currentShipNumber + 1) + HX_(": ",a6,32,00,00)) + shipName);
+HXDLIN( 475)				if (::hx::IsNull( _this->label )) {
+HXLINE( 475)					if (::hx::IsNotNull( Text )) {
+HXLINE( 475)						Float _this1 = _this->x;
+HXDLIN( 475)						Float _hx_tmp = (_this1 + _this->labelOffsets->__get(::flixel::ui::_FlxButton::FlxButtonState_Impl__obj::toInt(0)).StaticCast<  ::flixel::math::FlxBasePoint >()->x);
+HXDLIN( 475)						Float _this2 = _this->y;
+HXDLIN( 475)						_this->set_label( ::flixel::text::FlxText_obj::__alloc( HX_CTX ,_hx_tmp,(_this2 + _this->labelOffsets->__get(::flixel::ui::_FlxButton::FlxButtonState_Impl__obj::toInt(0)).StaticCast<  ::flixel::math::FlxBasePoint >()->y),80,Text,null(),null()));
+HXDLIN( 475)						_this->label->setFormat(null(),8,3355443,HX_("center",d5,25,db,05),null(),null(),null());
+HXDLIN( 475)						 ::flixel::text::FlxText _this3 = _this->label;
+HXDLIN( 475)						_this3->set_alpha(_this->labelAlphas->__get(::flixel::ui::_FlxButton::FlxButtonState_Impl__obj::toInt(_this->status)));
+HXDLIN( 475)						_this->label->drawFrame(true);
             					}
             				}
             				else {
-HXLINE( 476)					_this->label->set_text(Text);
+HXLINE( 475)					_this->label->set_text(Text);
             				}
             			}
-HXLINE( 477)			save->close(null());
+HXLINE( 476)			save->close(null());
             		}
             		else {
-HXLINE( 481)			 ::flixel::ui::FlxButton _this4 = this->shipButton;
-HXDLIN( 481)			::String Text1 = (((this->currentShipNumber + 1) + HX_(": ",a6,32,00,00)) + shipName);
-HXDLIN( 481)			if (::hx::IsNull( _this4->label )) {
-HXLINE( 481)				if (::hx::IsNotNull( Text1 )) {
-HXLINE( 481)					Float _this5 = _this4->x;
-HXDLIN( 481)					Float _hx_tmp1 = (_this5 + _this4->labelOffsets->__get(::flixel::ui::_FlxButton::FlxButtonState_Impl__obj::toInt(0)).StaticCast<  ::flixel::math::FlxBasePoint >()->x);
-HXDLIN( 481)					Float _this6 = _this4->y;
-HXDLIN( 481)					_this4->set_label( ::flixel::text::FlxText_obj::__alloc( HX_CTX ,_hx_tmp1,(_this6 + _this4->labelOffsets->__get(::flixel::ui::_FlxButton::FlxButtonState_Impl__obj::toInt(0)).StaticCast<  ::flixel::math::FlxBasePoint >()->y),80,Text1,null(),null()));
-HXDLIN( 481)					_this4->label->setFormat(null(),8,3355443,HX_("center",d5,25,db,05),null(),null(),null());
-HXDLIN( 481)					 ::flixel::text::FlxText _this7 = _this4->label;
-HXDLIN( 481)					_this7->set_alpha(_this4->labelAlphas->__get(::flixel::ui::_FlxButton::FlxButtonState_Impl__obj::toInt(_this4->status)));
-HXDLIN( 481)					_this4->label->drawFrame(true);
+HXLINE( 480)			 ::flixel::ui::FlxButton _this4 = this->shipButton;
+HXDLIN( 480)			::String Text1 = (((this->currentShipNumber + 1) + HX_(": ",a6,32,00,00)) + shipName);
+HXDLIN( 480)			if (::hx::IsNull( _this4->label )) {
+HXLINE( 480)				if (::hx::IsNotNull( Text1 )) {
+HXLINE( 480)					Float _this5 = _this4->x;
+HXDLIN( 480)					Float _hx_tmp1 = (_this5 + _this4->labelOffsets->__get(::flixel::ui::_FlxButton::FlxButtonState_Impl__obj::toInt(0)).StaticCast<  ::flixel::math::FlxBasePoint >()->x);
+HXDLIN( 480)					Float _this6 = _this4->y;
+HXDLIN( 480)					_this4->set_label( ::flixel::text::FlxText_obj::__alloc( HX_CTX ,_hx_tmp1,(_this6 + _this4->labelOffsets->__get(::flixel::ui::_FlxButton::FlxButtonState_Impl__obj::toInt(0)).StaticCast<  ::flixel::math::FlxBasePoint >()->y),80,Text1,null(),null()));
+HXDLIN( 480)					_this4->label->setFormat(null(),8,3355443,HX_("center",d5,25,db,05),null(),null(),null());
+HXDLIN( 480)					 ::flixel::text::FlxText _this7 = _this4->label;
+HXDLIN( 480)					_this7->set_alpha(_this4->labelAlphas->__get(::flixel::ui::_FlxButton::FlxButtonState_Impl__obj::toInt(_this4->status)));
+HXDLIN( 480)					_this4->label->drawFrame(true);
             				}
             			}
             			else {
-HXLINE( 481)				_this4->label->set_text(Text1);
+HXLINE( 480)				_this4->label->set_text(Text1);
             			}
             		}
             	}
@@ -611,8 +611,8 @@ void OptionsState_obj::__register()
 void OptionsState_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_ae5f66cd0c638a94_329_boot)
-HXDLIN( 329)		SHIP_MAX = 6;
+            	HX_STACKFRAME(&_hx_pos_ae5f66cd0c638a94_328_boot)
+HXDLIN( 328)		SHIP_MAX = 6;
             	}
 }
 

@@ -182,29 +182,29 @@ HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_94_pausemenu,"PlayState","pausemen
 HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_102_create,"PlayState","create",0x82220fed,"PlayState.create","PlayState.hx",102,0xb30d7781)
 HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_213_update,"PlayState","update",0x8d182efa,"PlayState.update","PlayState.hx",213,0xb30d7781)
 HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_294_update,"PlayState","update",0x8d182efa,"PlayState.update","PlayState.hx",294,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_378_collidePlayer,"PlayState","collidePlayer",0x5d3e88ae,"PlayState.collidePlayer","PlayState.hx",378,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_391_collidePlayer,"PlayState","collidePlayer",0x5d3e88ae,"PlayState.collidePlayer","PlayState.hx",391,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_421_collidePlayer,"PlayState","collidePlayer",0x5d3e88ae,"PlayState.collidePlayer","PlayState.hx",421,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_430_collidePlayer,"PlayState","collidePlayer",0x5d3e88ae,"PlayState.collidePlayer","PlayState.hx",430,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_458_collidePlayer,"PlayState","collidePlayer",0x5d3e88ae,"PlayState.collidePlayer","PlayState.hx",458,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_464_collidePlayer,"PlayState","collidePlayer",0x5d3e88ae,"PlayState.collidePlayer","PlayState.hx",464,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_488_collideProjectile,"PlayState","collideProjectile",0xcf7e4db6,"PlayState.collideProjectile","PlayState.hx",488,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_502_collideProjectile,"PlayState","collideProjectile",0xcf7e4db6,"PlayState.collideProjectile","PlayState.hx",502,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_518_collideProjectile,"PlayState","collideProjectile",0xcf7e4db6,"PlayState.collideProjectile","PlayState.hx",518,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_576_collideBoss,"PlayState","collideBoss",0xbc2747ba,"PlayState.collideBoss","PlayState.hx",576,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_566_collideBoss,"PlayState","collideBoss",0xbc2747ba,"PlayState.collideBoss","PlayState.hx",566,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_616_startWave,"PlayState","startWave",0x4438a2ea,"PlayState.startWave","PlayState.hx",616,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_607_startWave,"PlayState","startWave",0x4438a2ea,"PlayState.startWave","PlayState.hx",607,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_715_startWave,"PlayState","startWave",0x4438a2ea,"PlayState.startWave","PlayState.hx",715,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_725_startWave,"PlayState","startWave",0x4438a2ea,"PlayState.startWave","PlayState.hx",725,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_739_startWave,"PlayState","startWave",0x4438a2ea,"PlayState.startWave","PlayState.hx",739,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_750_spawnBoss,"PlayState","spawnBoss",0xdcf94f37,"PlayState.spawnBoss","PlayState.hx",750,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_760_isWaveComplete,"PlayState","isWaveComplete",0xfa2e648d,"PlayState.isWaveComplete","PlayState.hx",760,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_774_updateMultishotText,"PlayState","updateMultishotText",0x6c6dcae6,"PlayState.updateMultishotText","PlayState.hx",774,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_783_updateHealthText,"PlayState","updateHealthText",0xabd30f03,"PlayState.updateHealthText","PlayState.hx",783,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_788_updateScoreText,"PlayState","updateScoreText",0xb8bb7ec5,"PlayState.updateScoreText","PlayState.hx",788,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_799_updateMultiplier,"PlayState","updateMultiplier",0xa35c571b,"PlayState.updateMultiplier","PlayState.hx",799,0xb30d7781)
-HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_810_enemyShot,"PlayState","enemyShot",0xe8c49b11,"PlayState.enemyShot","PlayState.hx",810,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_389_collidePlayer,"PlayState","collidePlayer",0x5d3e88ae,"PlayState.collidePlayer","PlayState.hx",389,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_402_collidePlayer,"PlayState","collidePlayer",0x5d3e88ae,"PlayState.collidePlayer","PlayState.hx",402,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_432_collidePlayer,"PlayState","collidePlayer",0x5d3e88ae,"PlayState.collidePlayer","PlayState.hx",432,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_441_collidePlayer,"PlayState","collidePlayer",0x5d3e88ae,"PlayState.collidePlayer","PlayState.hx",441,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_469_collidePlayer,"PlayState","collidePlayer",0x5d3e88ae,"PlayState.collidePlayer","PlayState.hx",469,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_475_collidePlayer,"PlayState","collidePlayer",0x5d3e88ae,"PlayState.collidePlayer","PlayState.hx",475,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_499_collideProjectile,"PlayState","collideProjectile",0xcf7e4db6,"PlayState.collideProjectile","PlayState.hx",499,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_513_collideProjectile,"PlayState","collideProjectile",0xcf7e4db6,"PlayState.collideProjectile","PlayState.hx",513,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_529_collideProjectile,"PlayState","collideProjectile",0xcf7e4db6,"PlayState.collideProjectile","PlayState.hx",529,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_587_collideBoss,"PlayState","collideBoss",0xbc2747ba,"PlayState.collideBoss","PlayState.hx",587,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_577_collideBoss,"PlayState","collideBoss",0xbc2747ba,"PlayState.collideBoss","PlayState.hx",577,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_627_startWave,"PlayState","startWave",0x4438a2ea,"PlayState.startWave","PlayState.hx",627,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_618_startWave,"PlayState","startWave",0x4438a2ea,"PlayState.startWave","PlayState.hx",618,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_726_startWave,"PlayState","startWave",0x4438a2ea,"PlayState.startWave","PlayState.hx",726,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_736_startWave,"PlayState","startWave",0x4438a2ea,"PlayState.startWave","PlayState.hx",736,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_750_startWave,"PlayState","startWave",0x4438a2ea,"PlayState.startWave","PlayState.hx",750,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_761_spawnBoss,"PlayState","spawnBoss",0xdcf94f37,"PlayState.spawnBoss","PlayState.hx",761,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_771_isWaveComplete,"PlayState","isWaveComplete",0xfa2e648d,"PlayState.isWaveComplete","PlayState.hx",771,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_785_updateMultishotText,"PlayState","updateMultishotText",0x6c6dcae6,"PlayState.updateMultishotText","PlayState.hx",785,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_794_updateHealthText,"PlayState","updateHealthText",0xabd30f03,"PlayState.updateHealthText","PlayState.hx",794,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_799_updateScoreText,"PlayState","updateScoreText",0xb8bb7ec5,"PlayState.updateScoreText","PlayState.hx",799,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_810_updateMultiplier,"PlayState","updateMultiplier",0xa35c571b,"PlayState.updateMultiplier","PlayState.hx",810,0xb30d7781)
+HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_821_enemyShot,"PlayState","enemyShot",0xe8c49b11,"PlayState.enemyShot","PlayState.hx",821,0xb30d7781)
 HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_38_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",38,0xb30d7781)
 HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_41_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",41,0xb30d7781)
 HX_LOCAL_STACK_FRAME(_hx_pos_af23706db05c7feb_44_boot,"PlayState","boot",0xa6fd5ee3,"PlayState.boot","PlayState.hx",44,0xb30d7781)
@@ -648,306 +648,311 @@ HXLINE( 310)				_hx_tmp11 = true;
 HXDLIN( 310)			if (_hx_tmp11) {
 HXLINE( 312)				::flixel::FlxG_obj::sound->play(HX_("assets/sounds/ShootPlayer.ogg",22,90,f6,7a),((Float)0.4),false,null(),null(),null());
 HXLINE( 314)				this->fireTimer = ( (Float)(0) );
-HXLINE( 316)				Float p = this->ship->getGraphicMidpoint(null())->x;
-HXDLIN( 316)				Float p1 = this->ship->getGraphicMidpoint(null())->y;
-HXDLIN( 316)				 ::Projectile p2 =  ::Projectile_obj::__alloc( HX_CTX ,p,p1,(this->ship->angle - ( (Float)(90) )),0,0);
-HXLINE( 317)				this->projectiles->add(p2).StaticCast<  ::flixel::FlxBasic >();
+HXLINE( 318)				Float angleDeg = (this->ship->angle - ( (Float)(90) ));
+HXLINE( 319)				Float angleRad = ((angleDeg * ::Math_obj::PI) / ( (Float)(180) ));
+HXLINE( 321)				int offset = 10;
+HXLINE( 323)				Float spawnX = this->ship->getGraphicMidpoint(null())->x;
+HXDLIN( 323)				Float spawnX1 = (spawnX + (::Math_obj::cos(angleRad) * ( (Float)(offset) )));
+HXLINE( 324)				Float spawnY = this->ship->getGraphicMidpoint(null())->y;
+HXDLIN( 324)				Float spawnY1 = (spawnY + (::Math_obj::sin(angleRad) * ( (Float)(offset) )));
+HXLINE( 326)				 ::Projectile p =  ::Projectile_obj::__alloc( HX_CTX ,spawnX1,spawnY1,angleDeg,0,0);
+HXLINE( 328)				this->projectiles->add(p).StaticCast<  ::flixel::FlxBasic >();
             			}
-HXLINE( 321)			bool _hx_tmp15;
-HXDLIN( 321)			bool _hx_tmp16;
-HXDLIN( 321)			 ::flixel::input::keyboard::FlxKeyList _this6 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 321)			if (!(_this6->keyManager->checkStatusUnsafe(32,_this6->status))) {
-HXLINE( 321)				_hx_tmp16 = ::flixel::FlxG_obj::gamepads->anyHasState(5,2);
+HXLINE( 332)			bool _hx_tmp15;
+HXDLIN( 332)			bool _hx_tmp16;
+HXDLIN( 332)			 ::flixel::input::keyboard::FlxKeyList _this6 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 332)			if (!(_this6->keyManager->checkStatusUnsafe(32,_this6->status))) {
+HXLINE( 332)				_hx_tmp16 = ::flixel::FlxG_obj::gamepads->anyHasState(5,2);
             			}
             			else {
-HXLINE( 321)				_hx_tmp16 = true;
+HXLINE( 332)				_hx_tmp16 = true;
             			}
-HXDLIN( 321)			if (_hx_tmp16) {
-HXLINE( 321)				_hx_tmp15 = (this->multishotCharge >= ::PlayState_obj::MULTISHOT_CHARGE_MAX);
+HXDLIN( 332)			if (_hx_tmp16) {
+HXLINE( 332)				_hx_tmp15 = (this->multishotCharge >= ::PlayState_obj::MULTISHOT_CHARGE_MAX);
             			}
             			else {
-HXLINE( 321)				_hx_tmp15 = false;
+HXLINE( 332)				_hx_tmp15 = false;
             			}
-HXDLIN( 321)			if (_hx_tmp15) {
-HXLINE( 323)				::flixel::FlxG_obj::sound->play(HX_("assets/sounds/ShootSpecial.ogg",3a,68,28,64),((Float)0.4),false,null(),null(),null());
-HXLINE( 326)				this->multishotCharge = ( (Float)(0) );
-HXLINE( 327)				this->controlsText->set_visible(false);
-HXLINE( 329)				Float angleIncrement = ( (Float)(0) );
-HXLINE( 330)				{
-HXLINE( 330)					int _g = 0;
-HXDLIN( 330)					int _g1 = ::PlayState_obj::MULTISHOT_SHOT_AMOUNT;
-HXDLIN( 330)					while((_g < _g1)){
-HXLINE( 330)						_g = (_g + 1);
-HXDLIN( 330)						int i = (_g - 1);
-HXLINE( 333)						Float p3 = this->ship->getGraphicMidpoint(null())->x;
-HXDLIN( 333)						Float p4 = this->ship->getGraphicMidpoint(null())->y;
-HXDLIN( 333)						 ::Projectile p5 =  ::Projectile_obj::__alloc( HX_CTX ,p3,p4,(this->ship->angle + angleIncrement),0,1);
-HXLINE( 334)						this->specialProjectiles->add(p5).StaticCast<  ::flixel::FlxBasic >();
-HXLINE( 335)						p5->bulletPenetration = ::PlayState_obj::BULLET_PENETRATION;
-HXLINE( 336)						angleIncrement = (angleIncrement + (( (Float)(360) ) / ( (Float)(::PlayState_obj::MULTISHOT_SHOT_AMOUNT) )));
+HXDLIN( 332)			if (_hx_tmp15) {
+HXLINE( 334)				::flixel::FlxG_obj::sound->play(HX_("assets/sounds/ShootSpecial.ogg",3a,68,28,64),((Float)0.4),false,null(),null(),null());
+HXLINE( 337)				this->multishotCharge = ( (Float)(0) );
+HXLINE( 338)				this->controlsText->set_visible(false);
+HXLINE( 340)				Float angleIncrement = ( (Float)(0) );
+HXLINE( 341)				{
+HXLINE( 341)					int _g = 0;
+HXDLIN( 341)					int _g1 = ::PlayState_obj::MULTISHOT_SHOT_AMOUNT;
+HXDLIN( 341)					while((_g < _g1)){
+HXLINE( 341)						_g = (_g + 1);
+HXDLIN( 341)						int i = (_g - 1);
+HXLINE( 344)						Float p1 = this->ship->getGraphicMidpoint(null())->x;
+HXDLIN( 344)						Float p2 = this->ship->getGraphicMidpoint(null())->y;
+HXDLIN( 344)						 ::Projectile p3 =  ::Projectile_obj::__alloc( HX_CTX ,p1,p2,(this->ship->angle + angleIncrement),0,1);
+HXLINE( 345)						this->specialProjectiles->add(p3).StaticCast<  ::flixel::FlxBasic >();
+HXLINE( 346)						p3->bulletPenetration = ::PlayState_obj::BULLET_PENETRATION;
+HXLINE( 347)						angleIncrement = (angleIncrement + (( (Float)(360) ) / ( (Float)(::PlayState_obj::MULTISHOT_SHOT_AMOUNT) )));
             					}
             				}
-HXLINE( 339)				this->updateMultishotText();
+HXLINE( 350)				this->updateMultishotText();
             			}
-HXLINE( 342)			bool _hx_tmp17;
-HXDLIN( 342)			bool _hx_tmp18;
-HXDLIN( 342)			bool _hx_tmp19;
-HXDLIN( 342)			 ::flixel::input::keyboard::FlxKeyList _this7 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justReleased) );
-HXDLIN( 342)			if (!(_this7->keyManager->checkStatusUnsafe(16,_this7->status))) {
-HXLINE( 342)				_hx_tmp19 = (::flixel::FlxG_obj::mouse->_rightButton->current == -1);
-            			}
-            			else {
-HXLINE( 342)				_hx_tmp19 = true;
-            			}
-HXDLIN( 342)			if (!(_hx_tmp19)) {
-HXLINE( 342)				_hx_tmp18 = ::flixel::FlxG_obj::gamepads->anyHasState(4,-1);
+HXLINE( 353)			bool _hx_tmp17;
+HXDLIN( 353)			bool _hx_tmp18;
+HXDLIN( 353)			bool _hx_tmp19;
+HXDLIN( 353)			 ::flixel::input::keyboard::FlxKeyList _this7 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justReleased) );
+HXDLIN( 353)			if (!(_this7->keyManager->checkStatusUnsafe(16,_this7->status))) {
+HXLINE( 353)				_hx_tmp19 = (::flixel::FlxG_obj::mouse->_rightButton->current == -1);
             			}
             			else {
-HXLINE( 342)				_hx_tmp18 = true;
+HXLINE( 353)				_hx_tmp19 = true;
             			}
-HXDLIN( 342)			if (_hx_tmp18) {
-HXLINE( 342)				_hx_tmp17 = !(this->ship->isDodging);
+HXDLIN( 353)			if (!(_hx_tmp19)) {
+HXLINE( 353)				_hx_tmp18 = ::flixel::FlxG_obj::gamepads->anyHasState(4,-1);
             			}
             			else {
-HXLINE( 342)				_hx_tmp17 = false;
+HXLINE( 353)				_hx_tmp18 = true;
             			}
-HXDLIN( 342)			if (_hx_tmp17) {
-HXLINE( 344)				::flixel::FlxG_obj::sound->play(HX_("assets/sounds/Dodge.ogg",19,33,12,fe),((Float)0.4),false,null(),null(),null());
-HXLINE( 346)				this->ship->isDodging = true;
-HXLINE( 347)				this->ship->dodgeTimer = ( (Float)(0) );
-HXLINE( 349)				this->ship->isInvincible = true;
+HXDLIN( 353)			if (_hx_tmp18) {
+HXLINE( 353)				_hx_tmp17 = !(this->ship->isDodging);
+            			}
+            			else {
+HXLINE( 353)				_hx_tmp17 = false;
+            			}
+HXDLIN( 353)			if (_hx_tmp17) {
+HXLINE( 355)				::flixel::FlxG_obj::sound->play(HX_("assets/sounds/Dodge.ogg",19,33,12,fe),((Float)0.4),false,null(),null(),null());
+HXLINE( 357)				this->ship->isDodging = true;
+HXLINE( 358)				this->ship->dodgeTimer = ( (Float)(0) );
+HXLINE( 360)				this->ship->isInvincible = true;
             			}
             		}
-HXLINE( 354)		::flixel::FlxG_obj::overlap(this->asteroid,this->ship,this->collidePlayer_dyn(),null());
-HXLINE( 355)		::flixel::FlxG_obj::overlap(this->enemy,this->ship,this->collidePlayer_dyn(),null());
-HXLINE( 356)		::flixel::FlxG_obj::overlap(this->enemyProjectiles,this->ship,this->collidePlayer_dyn(),null());
-HXLINE( 359)		::flixel::FlxG_obj::overlap(this->asteroid,this->projectiles,this->collideProjectile_dyn(),null());
-HXLINE( 360)		::flixel::FlxG_obj::overlap(this->enemy,this->projectiles,this->collideProjectile_dyn(),null());
-HXLINE( 361)		::flixel::FlxG_obj::overlap(this->enemyProjectiles,this->specialProjectiles,this->collideProjectile_dyn(),null());
-HXLINE( 364)		::flixel::FlxG_obj::overlap(this->asteroid,this->specialProjectiles,this->collideProjectile_dyn(),null());
-HXLINE( 365)		::flixel::FlxG_obj::overlap(this->enemy,this->specialProjectiles,this->collideProjectile_dyn(),null());
-HXLINE( 368)		bool _hx_tmp20;
-HXDLIN( 368)		if (::hx::IsNotNull( this->boss )) {
-HXLINE( 368)			_hx_tmp20 = this->boss->alive;
+HXLINE( 365)		::flixel::FlxG_obj::overlap(this->asteroid,this->ship,this->collidePlayer_dyn(),null());
+HXLINE( 366)		::flixel::FlxG_obj::overlap(this->enemy,this->ship,this->collidePlayer_dyn(),null());
+HXLINE( 367)		::flixel::FlxG_obj::overlap(this->enemyProjectiles,this->ship,this->collidePlayer_dyn(),null());
+HXLINE( 370)		::flixel::FlxG_obj::overlap(this->asteroid,this->projectiles,this->collideProjectile_dyn(),null());
+HXLINE( 371)		::flixel::FlxG_obj::overlap(this->enemy,this->projectiles,this->collideProjectile_dyn(),null());
+HXLINE( 372)		::flixel::FlxG_obj::overlap(this->enemyProjectiles,this->specialProjectiles,this->collideProjectile_dyn(),null());
+HXLINE( 375)		::flixel::FlxG_obj::overlap(this->asteroid,this->specialProjectiles,this->collideProjectile_dyn(),null());
+HXLINE( 376)		::flixel::FlxG_obj::overlap(this->enemy,this->specialProjectiles,this->collideProjectile_dyn(),null());
+HXLINE( 379)		bool _hx_tmp20;
+HXDLIN( 379)		if (::hx::IsNotNull( this->boss )) {
+HXLINE( 379)			_hx_tmp20 = this->boss->alive;
             		}
             		else {
-HXLINE( 368)			_hx_tmp20 = false;
+HXLINE( 379)			_hx_tmp20 = false;
             		}
-HXDLIN( 368)		if (_hx_tmp20) {
-HXLINE( 370)			::flixel::FlxG_obj::overlap(this->boss,this->projectiles,this->collideBoss_dyn(),null());
-HXLINE( 371)			::flixel::FlxG_obj::overlap(this->boss,this->specialProjectiles,this->collideBoss_dyn(),null());
-HXLINE( 372)			::flixel::FlxG_obj::overlap(this->boss,this->ship,this->collidePlayer_dyn(),null());
+HXDLIN( 379)		if (_hx_tmp20) {
+HXLINE( 381)			::flixel::FlxG_obj::overlap(this->boss,this->projectiles,this->collideBoss_dyn(),null());
+HXLINE( 382)			::flixel::FlxG_obj::overlap(this->boss,this->specialProjectiles,this->collideBoss_dyn(),null());
+HXLINE( 383)			::flixel::FlxG_obj::overlap(this->boss,this->ship,this->collidePlayer_dyn(),null());
             		}
             	}
 
 
 void PlayState_obj::collidePlayer( ::flixel::FlxSprite object1, ::flixel::FlxSprite object2){
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_378_collidePlayer)
-HXDLIN( 378)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 380)		bool _hx_tmp;
-HXDLIN( 380)		if (!(this->ship->isDodging)) {
-HXLINE( 380)			_hx_tmp = this->ship->isInvincible;
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_389_collidePlayer)
+HXDLIN( 389)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 391)		bool _hx_tmp;
+HXDLIN( 391)		if (!(this->ship->isDodging)) {
+HXLINE( 391)			_hx_tmp = this->ship->isInvincible;
             		}
             		else {
-HXLINE( 380)			_hx_tmp = true;
+HXLINE( 391)			_hx_tmp = true;
             		}
-HXDLIN( 380)		if (_hx_tmp) {
-HXLINE( 381)			return;
+HXDLIN( 391)		if (_hx_tmp) {
+HXLINE( 392)			return;
             		}
-HXLINE( 383)		::hx::Class _hx_switch_0 = ::Type_obj::getClass(object1);
+HXLINE( 394)		::hx::Class _hx_switch_0 = ::Type_obj::getClass(object1);
             		if (  (_hx_switch_0==::hx::ClassOf< ::Asteroid >()) ){
-HXLINE( 386)			 ::Asteroid env = ( ( ::Asteroid)(object1) );
-HXLINE( 387)			if (!(env->isDead)) {
+HXLINE( 397)			 ::Asteroid env = ( ( ::Asteroid)(object1) );
+HXLINE( 398)			if (!(env->isDead)) {
             				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis) HXARGC(1)
             				void _hx_run( ::flixel::util::FlxTimer t){
-            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_391_collidePlayer)
-HXLINE( 391)					_gthis->ship->set_color(-1);
+            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_402_collidePlayer)
+HXLINE( 402)					_gthis->ship->set_color(-1);
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 389)				this->playerHealth--;
-HXLINE( 390)				this->ship->set_color(-65536);
-HXLINE( 391)				 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.1), ::Dynamic(new _hx_Closure_0(_gthis)),null());
+HXLINE( 400)				this->playerHealth--;
+HXLINE( 401)				this->ship->set_color(-65536);
+HXLINE( 402)				 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.1), ::Dynamic(new _hx_Closure_0(_gthis)),null());
             			}
             			else {
-HXLINE( 394)				return;
+HXLINE( 405)				return;
             			}
-HXLINE( 396)			this->updateHealthText();
-HXLINE( 399)			if ((this->playerHealth < 1)) {
-HXLINE( 400)				::flixel::FlxG_obj::camera->flash(-65536,((Float)2.0),null(),null());
-HXLINE( 401)				object2->kill();
-HXLINE( 402)				::flixel::FlxG_obj::sound->play(HX_("assets/sounds/DeathEnemy2.ogg",c0,73,ef,5f),((Float)0.4),false,null(),null(),null());
-HXLINE( 404)				this->controlsText->set_text(HX_("R to Restart",18,91,ce,21));
-HXLINE( 405)				this->controlsText->set_visible(true);
-HXLINE( 406)				this->controlsText->set_alignment(HX_("center",d5,25,db,05));
-HXLINE( 407)				{
-HXLINE( 407)					 ::flixel::text::FlxText _this = this->controlsText;
-HXDLIN( 407)					int axes = 1;
-HXDLIN( 407)					bool _hx_tmp1;
-HXDLIN( 407)					if ((axes != 1)) {
-HXLINE( 407)						_hx_tmp1 = (axes == 17);
+HXLINE( 407)			this->updateHealthText();
+HXLINE( 410)			if ((this->playerHealth < 1)) {
+HXLINE( 411)				::flixel::FlxG_obj::camera->flash(-65536,((Float)2.0),null(),null());
+HXLINE( 412)				object2->kill();
+HXLINE( 413)				::flixel::FlxG_obj::sound->play(HX_("assets/sounds/DeathEnemy2.ogg",c0,73,ef,5f),((Float)0.4),false,null(),null(),null());
+HXLINE( 415)				this->controlsText->set_text(HX_("R to Restart",18,91,ce,21));
+HXLINE( 416)				this->controlsText->set_visible(true);
+HXLINE( 417)				this->controlsText->set_alignment(HX_("center",d5,25,db,05));
+HXLINE( 418)				{
+HXLINE( 418)					 ::flixel::text::FlxText _this = this->controlsText;
+HXDLIN( 418)					int axes = 1;
+HXDLIN( 418)					bool _hx_tmp1;
+HXDLIN( 418)					if ((axes != 1)) {
+HXLINE( 418)						_hx_tmp1 = (axes == 17);
             					}
             					else {
-HXLINE( 407)						_hx_tmp1 = true;
+HXLINE( 418)						_hx_tmp1 = true;
             					}
-HXDLIN( 407)					if (_hx_tmp1) {
-HXLINE( 407)						int _hx_tmp2 = ::flixel::FlxG_obj::width;
-HXDLIN( 407)						_this->set_x(((( (Float)(_hx_tmp2) ) - _this->get_width()) / ( (Float)(2) )));
+HXDLIN( 418)					if (_hx_tmp1) {
+HXLINE( 418)						int _hx_tmp2 = ::flixel::FlxG_obj::width;
+HXDLIN( 418)						_this->set_x(((( (Float)(_hx_tmp2) ) - _this->get_width()) / ( (Float)(2) )));
             					}
-HXDLIN( 407)					bool _hx_tmp3;
-HXDLIN( 407)					if ((axes != 16)) {
-HXLINE( 407)						_hx_tmp3 = (axes == 17);
+HXDLIN( 418)					bool _hx_tmp3;
+HXDLIN( 418)					if ((axes != 16)) {
+HXLINE( 418)						_hx_tmp3 = (axes == 17);
             					}
             					else {
-HXLINE( 407)						_hx_tmp3 = true;
+HXLINE( 418)						_hx_tmp3 = true;
             					}
-HXDLIN( 407)					if (_hx_tmp3) {
-HXLINE( 407)						int _hx_tmp4 = ::flixel::FlxG_obj::height;
-HXDLIN( 407)						_this->set_y(((( (Float)(_hx_tmp4) ) - _this->get_height()) / ( (Float)(2) )));
+HXDLIN( 418)					if (_hx_tmp3) {
+HXLINE( 418)						int _hx_tmp4 = ::flixel::FlxG_obj::height;
+HXDLIN( 418)						_this->set_y(((( (Float)(_hx_tmp4) ) - _this->get_height()) / ( (Float)(2) )));
             					}
             				}
-HXLINE( 409)				this->gameWonText->set_visible(false);
-HXLINE( 410)				this->gameOverText->set_visible(true);
+HXLINE( 420)				this->gameWonText->set_visible(false);
+HXLINE( 421)				this->gameOverText->set_visible(true);
             			}
             			else {
             				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::flixel::FlxSprite,object1) HXARGC(1)
             				void _hx_run( ::flixel::util::FlxTimer timer){
-            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_421_collidePlayer)
-HXLINE( 421)					object1->set_exists(false);
+            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_432_collidePlayer)
+HXLINE( 432)					object1->set_exists(false);
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 415)				env->isDead = true;
-HXLINE( 416)				env->animation->play(HX_("death",34,8f,1e,d7),null(),null(),null());
-HXLINE( 417)				object1->kill();
-HXLINE( 418)				::flixel::FlxG_obj::sound->play(HX_("assets/sounds/ExplodeAsteroid.ogg",3e,92,02,9a),((Float)0.4),false,null(),null(),null());
-HXLINE( 420)				object1->set_exists(true);
-HXLINE( 421)				 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.15), ::Dynamic(new _hx_Closure_1(object1)),null());
+HXLINE( 426)				env->isDead = true;
+HXLINE( 427)				env->animation->play(HX_("death",34,8f,1e,d7),null(),null(),null());
+HXLINE( 428)				object1->kill();
+HXLINE( 429)				::flixel::FlxG_obj::sound->play(HX_("assets/sounds/ExplodeAsteroid.ogg",3e,92,02,9a),((Float)0.4),false,null(),null(),null());
+HXLINE( 431)				object1->set_exists(true);
+HXLINE( 432)				 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.15), ::Dynamic(new _hx_Closure_1(object1)),null());
             			}
-HXLINE( 385)			goto _hx_goto_12;
+HXLINE( 396)			goto _hx_goto_12;
             		}
             		if (  (_hx_switch_0==::hx::ClassOf< ::Enemy >()) ){
-HXLINE( 425)			 ::Enemy e = ( ( ::Enemy)(object1) );
-HXLINE( 426)			if (!(e->isDead)) {
+HXLINE( 436)			 ::Enemy e = ( ( ::Enemy)(object1) );
+HXLINE( 437)			if (!(e->isDead)) {
             				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_2, ::PlayState,_gthis) HXARGC(1)
             				void _hx_run( ::flixel::util::FlxTimer t){
-            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_430_collidePlayer)
-HXLINE( 430)					_gthis->ship->set_color(-1);
+            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_441_collidePlayer)
+HXLINE( 441)					_gthis->ship->set_color(-1);
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 428)				this->playerHealth--;
-HXLINE( 429)				this->ship->set_color(-65536);
-HXLINE( 430)				 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(::PlayState_obj::DEATH_ANIMATION_DURATION, ::Dynamic(new _hx_Closure_2(_gthis)),null());
+HXLINE( 439)				this->playerHealth--;
+HXLINE( 440)				this->ship->set_color(-65536);
+HXLINE( 441)				 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(::PlayState_obj::DEATH_ANIMATION_DURATION, ::Dynamic(new _hx_Closure_2(_gthis)),null());
             			}
             			else {
-HXLINE( 433)				return;
+HXLINE( 444)				return;
             			}
-HXLINE( 435)			this->updateHealthText();
-HXLINE( 437)			if ((this->playerHealth < 1)) {
-HXLINE( 439)				::flixel::FlxG_obj::camera->flash(-65536,((Float)2.0),null(),null());
-HXLINE( 440)				object2->kill();
-HXLINE( 441)				::flixel::FlxG_obj::sound->play(HX_("assets/sounds/DeathEnemy2.ogg",c0,73,ef,5f),((Float)0.4),false,null(),null(),null());
-HXLINE( 443)				this->controlsText->set_text(HX_("R to Restart",18,91,ce,21));
-HXLINE( 444)				this->controlsText->set_visible(true);
-HXLINE( 445)				this->controlsText->set_alignment(HX_("center",d5,25,db,05));
-HXLINE( 446)				{
-HXLINE( 446)					 ::flixel::text::FlxText _this1 = this->controlsText;
-HXDLIN( 446)					int axes1 = 1;
-HXDLIN( 446)					bool _hx_tmp5;
-HXDLIN( 446)					if ((axes1 != 1)) {
-HXLINE( 446)						_hx_tmp5 = (axes1 == 17);
+HXLINE( 446)			this->updateHealthText();
+HXLINE( 448)			if ((this->playerHealth < 1)) {
+HXLINE( 450)				::flixel::FlxG_obj::camera->flash(-65536,((Float)2.0),null(),null());
+HXLINE( 451)				object2->kill();
+HXLINE( 452)				::flixel::FlxG_obj::sound->play(HX_("assets/sounds/DeathEnemy2.ogg",c0,73,ef,5f),((Float)0.4),false,null(),null(),null());
+HXLINE( 454)				this->controlsText->set_text(HX_("R to Restart",18,91,ce,21));
+HXLINE( 455)				this->controlsText->set_visible(true);
+HXLINE( 456)				this->controlsText->set_alignment(HX_("center",d5,25,db,05));
+HXLINE( 457)				{
+HXLINE( 457)					 ::flixel::text::FlxText _this1 = this->controlsText;
+HXDLIN( 457)					int axes1 = 1;
+HXDLIN( 457)					bool _hx_tmp5;
+HXDLIN( 457)					if ((axes1 != 1)) {
+HXLINE( 457)						_hx_tmp5 = (axes1 == 17);
             					}
             					else {
-HXLINE( 446)						_hx_tmp5 = true;
+HXLINE( 457)						_hx_tmp5 = true;
             					}
-HXDLIN( 446)					if (_hx_tmp5) {
-HXLINE( 446)						int _hx_tmp6 = ::flixel::FlxG_obj::width;
-HXDLIN( 446)						_this1->set_x(((( (Float)(_hx_tmp6) ) - _this1->get_width()) / ( (Float)(2) )));
+HXDLIN( 457)					if (_hx_tmp5) {
+HXLINE( 457)						int _hx_tmp6 = ::flixel::FlxG_obj::width;
+HXDLIN( 457)						_this1->set_x(((( (Float)(_hx_tmp6) ) - _this1->get_width()) / ( (Float)(2) )));
             					}
-HXDLIN( 446)					bool _hx_tmp7;
-HXDLIN( 446)					if ((axes1 != 16)) {
-HXLINE( 446)						_hx_tmp7 = (axes1 == 17);
+HXDLIN( 457)					bool _hx_tmp7;
+HXDLIN( 457)					if ((axes1 != 16)) {
+HXLINE( 457)						_hx_tmp7 = (axes1 == 17);
             					}
             					else {
-HXLINE( 446)						_hx_tmp7 = true;
+HXLINE( 457)						_hx_tmp7 = true;
             					}
-HXDLIN( 446)					if (_hx_tmp7) {
-HXLINE( 446)						int _hx_tmp8 = ::flixel::FlxG_obj::height;
-HXDLIN( 446)						_this1->set_y(((( (Float)(_hx_tmp8) ) - _this1->get_height()) / ( (Float)(2) )));
+HXDLIN( 457)					if (_hx_tmp7) {
+HXLINE( 457)						int _hx_tmp8 = ::flixel::FlxG_obj::height;
+HXDLIN( 457)						_this1->set_y(((( (Float)(_hx_tmp8) ) - _this1->get_height()) / ( (Float)(2) )));
             					}
             				}
-HXLINE( 448)				this->gameWonText->set_visible(false);
-HXLINE( 449)				this->gameOverText->set_visible(true);
+HXLINE( 459)				this->gameWonText->set_visible(false);
+HXLINE( 460)				this->gameOverText->set_visible(true);
             			}
             			else {
             				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_3, ::flixel::FlxSprite,object1) HXARGC(1)
             				void _hx_run( ::flixel::util::FlxTimer timer){
-            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_458_collidePlayer)
-HXLINE( 458)					object1->set_exists(false);
+            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_469_collidePlayer)
+HXLINE( 469)					object1->set_exists(false);
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 452)				e->isDead = true;
-HXLINE( 453)				e->animation->play(HX_("death",34,8f,1e,d7),null(),null(),null());
-HXLINE( 454)				object1->kill();
-HXLINE( 455)				::flixel::FlxG_obj::sound->play(HX_("assets/sounds/ExplodeEnemy.ogg",47,9f,a6,7c),((Float)0.4),false,null(),null(),null());
-HXLINE( 457)				object1->set_exists(true);
-HXLINE( 458)				 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(::PlayState_obj::DEATH_ANIMATION_DURATION, ::Dynamic(new _hx_Closure_3(object1)),null());
+HXLINE( 463)				e->isDead = true;
+HXLINE( 464)				e->animation->play(HX_("death",34,8f,1e,d7),null(),null(),null());
+HXLINE( 465)				object1->kill();
+HXLINE( 466)				::flixel::FlxG_obj::sound->play(HX_("assets/sounds/ExplodeEnemy.ogg",47,9f,a6,7c),((Float)0.4),false,null(),null(),null());
+HXLINE( 468)				object1->set_exists(true);
+HXLINE( 469)				 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(::PlayState_obj::DEATH_ANIMATION_DURATION, ::Dynamic(new _hx_Closure_3(object1)),null());
             			}
-HXLINE( 424)			goto _hx_goto_12;
+HXLINE( 435)			goto _hx_goto_12;
             		}
             		if (  (_hx_switch_0==::hx::ClassOf< ::Projectile >()) ){
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_4, ::PlayState,_gthis) HXARGC(1)
             			void _hx_run( ::flixel::util::FlxTimer t){
-            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_464_collidePlayer)
-HXLINE( 464)				_gthis->ship->set_color(-1);
+            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_475_collidePlayer)
+HXLINE( 475)				_gthis->ship->set_color(-1);
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 462)			this->playerHealth--;
-HXLINE( 463)			this->ship->set_color(-65536);
-HXLINE( 464)			 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.1), ::Dynamic(new _hx_Closure_4(_gthis)),null());
-HXLINE( 465)			this->updateHealthText();
-HXLINE( 466)			if ((this->playerHealth < 1)) {
-HXLINE( 467)				::flixel::FlxG_obj::camera->flash(-65536,((Float)2.0),null(),null());
-HXLINE( 468)				object2->kill();
-HXLINE( 470)				this->controlsText->set_text(HX_("R to Restart",18,91,ce,21));
-HXLINE( 471)				this->controlsText->set_visible(true);
-HXLINE( 472)				this->controlsText->set_alignment(HX_("center",d5,25,db,05));
-HXLINE( 473)				{
-HXLINE( 473)					 ::flixel::text::FlxText _this2 = this->controlsText;
-HXDLIN( 473)					int axes2 = 1;
-HXDLIN( 473)					bool _hx_tmp9;
-HXDLIN( 473)					if ((axes2 != 1)) {
-HXLINE( 473)						_hx_tmp9 = (axes2 == 17);
+HXLINE( 473)			this->playerHealth--;
+HXLINE( 474)			this->ship->set_color(-65536);
+HXLINE( 475)			 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.1), ::Dynamic(new _hx_Closure_4(_gthis)),null());
+HXLINE( 476)			this->updateHealthText();
+HXLINE( 477)			if ((this->playerHealth < 1)) {
+HXLINE( 478)				::flixel::FlxG_obj::camera->flash(-65536,((Float)2.0),null(),null());
+HXLINE( 479)				object2->kill();
+HXLINE( 481)				this->controlsText->set_text(HX_("R to Restart",18,91,ce,21));
+HXLINE( 482)				this->controlsText->set_visible(true);
+HXLINE( 483)				this->controlsText->set_alignment(HX_("center",d5,25,db,05));
+HXLINE( 484)				{
+HXLINE( 484)					 ::flixel::text::FlxText _this2 = this->controlsText;
+HXDLIN( 484)					int axes2 = 1;
+HXDLIN( 484)					bool _hx_tmp9;
+HXDLIN( 484)					if ((axes2 != 1)) {
+HXLINE( 484)						_hx_tmp9 = (axes2 == 17);
             					}
             					else {
-HXLINE( 473)						_hx_tmp9 = true;
+HXLINE( 484)						_hx_tmp9 = true;
             					}
-HXDLIN( 473)					if (_hx_tmp9) {
-HXLINE( 473)						int _hx_tmp10 = ::flixel::FlxG_obj::width;
-HXDLIN( 473)						_this2->set_x(((( (Float)(_hx_tmp10) ) - _this2->get_width()) / ( (Float)(2) )));
+HXDLIN( 484)					if (_hx_tmp9) {
+HXLINE( 484)						int _hx_tmp10 = ::flixel::FlxG_obj::width;
+HXDLIN( 484)						_this2->set_x(((( (Float)(_hx_tmp10) ) - _this2->get_width()) / ( (Float)(2) )));
             					}
-HXDLIN( 473)					bool _hx_tmp11;
-HXDLIN( 473)					if ((axes2 != 16)) {
-HXLINE( 473)						_hx_tmp11 = (axes2 == 17);
+HXDLIN( 484)					bool _hx_tmp11;
+HXDLIN( 484)					if ((axes2 != 16)) {
+HXLINE( 484)						_hx_tmp11 = (axes2 == 17);
             					}
             					else {
-HXLINE( 473)						_hx_tmp11 = true;
+HXLINE( 484)						_hx_tmp11 = true;
             					}
-HXDLIN( 473)					if (_hx_tmp11) {
-HXLINE( 473)						int _hx_tmp12 = ::flixel::FlxG_obj::height;
-HXDLIN( 473)						_this2->set_y(((( (Float)(_hx_tmp12) ) - _this2->get_height()) / ( (Float)(2) )));
+HXDLIN( 484)					if (_hx_tmp11) {
+HXLINE( 484)						int _hx_tmp12 = ::flixel::FlxG_obj::height;
+HXDLIN( 484)						_this2->set_y(((( (Float)(_hx_tmp12) ) - _this2->get_height()) / ( (Float)(2) )));
             					}
             				}
-HXLINE( 475)				this->gameWonText->set_visible(false);
-HXLINE( 476)				this->gameOverText->set_visible(true);
+HXLINE( 486)				this->gameWonText->set_visible(false);
+HXLINE( 487)				this->gameOverText->set_visible(true);
             			}
             			else {
-HXLINE( 480)				object1->kill();
+HXLINE( 491)				object1->kill();
             			}
-HXLINE( 461)			goto _hx_goto_12;
+HXLINE( 472)			goto _hx_goto_12;
             		}
             		_hx_goto_12:;
             	}
@@ -956,88 +961,88 @@ HXLINE( 461)			goto _hx_goto_12;
 HX_DEFINE_DYNAMIC_FUNC2(PlayState_obj,collidePlayer,(void))
 
 void PlayState_obj::collideProjectile( ::flixel::FlxObject object1, ::flixel::FlxObject object2){
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_488_collideProjectile)
-HXLINE( 489)		int pointsAdd = 0;
-HXLINE( 491)		::hx::Class _hx_switch_0 = ::Type_obj::getClass(object1);
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_499_collideProjectile)
+HXLINE( 500)		int pointsAdd = 0;
+HXLINE( 502)		::hx::Class _hx_switch_0 = ::Type_obj::getClass(object1);
             		if (  (_hx_switch_0==::hx::ClassOf< ::Asteroid >()) ){
-HXLINE( 494)			 ::Asteroid env = ( ( ::Asteroid)(object1) );
-HXLINE( 495)			if (!(env->isDead)) {
+HXLINE( 505)			 ::Asteroid env = ( ( ::Asteroid)(object1) );
+HXLINE( 506)			if (!(env->isDead)) {
             				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::flixel::FlxObject,object1) HXARGC(1)
             				void _hx_run( ::flixel::util::FlxTimer timer){
-            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_502_collideProjectile)
-HXLINE( 502)					object1->set_exists(false);
+            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_513_collideProjectile)
+HXLINE( 513)					object1->set_exists(false);
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 497)				env->isDead = true;
-HXLINE( 498)				env->animation->play(HX_("death",34,8f,1e,d7),null(),null(),null());
-HXLINE( 499)				::flixel::FlxG_obj::sound->play(HX_("assets/sounds/ExplodeAsteroid.ogg",3e,92,02,9a),((Float)0.4),false,null(),null(),null());
-HXLINE( 500)				object1->kill();
-HXLINE( 501)				object1->set_exists(true);
-HXLINE( 502)				 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(::PlayState_obj::DEATH_ANIMATION_DURATION, ::Dynamic(new _hx_Closure_0(object1)),null());
-HXLINE( 504)				pointsAdd = 200;
-HXLINE( 505)				this->asteroidHits++;
+HXLINE( 508)				env->isDead = true;
+HXLINE( 509)				env->animation->play(HX_("death",34,8f,1e,d7),null(),null(),null());
+HXLINE( 510)				::flixel::FlxG_obj::sound->play(HX_("assets/sounds/ExplodeAsteroid.ogg",3e,92,02,9a),((Float)0.4),false,null(),null(),null());
+HXLINE( 511)				object1->kill();
+HXLINE( 512)				object1->set_exists(true);
+HXLINE( 513)				 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(::PlayState_obj::DEATH_ANIMATION_DURATION, ::Dynamic(new _hx_Closure_0(object1)),null());
+HXLINE( 515)				pointsAdd = 200;
+HXLINE( 516)				this->asteroidHits++;
             			}
             			else {
-HXLINE( 507)				return;
+HXLINE( 518)				return;
             			}
-HXLINE( 493)			goto _hx_goto_19;
+HXLINE( 504)			goto _hx_goto_19;
             		}
             		if (  (_hx_switch_0==::hx::ClassOf< ::Enemy >()) ){
-HXLINE( 510)			 ::Enemy env1 = ( ( ::Enemy)(object1) );
-HXLINE( 511)			if (!(env1->isDead)) {
+HXLINE( 521)			 ::Enemy env1 = ( ( ::Enemy)(object1) );
+HXLINE( 522)			if (!(env1->isDead)) {
             				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::flixel::FlxObject,object1) HXARGC(1)
             				void _hx_run( ::flixel::util::FlxTimer timer){
-            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_518_collideProjectile)
-HXLINE( 518)					object1->set_exists(false);
+            					HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_529_collideProjectile)
+HXLINE( 529)					object1->set_exists(false);
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 513)				env1->isDead = true;
-HXLINE( 514)				env1->animation->play(HX_("death",34,8f,1e,d7),null(),null(),null());
-HXLINE( 515)				::flixel::FlxG_obj::sound->play(HX_("assets/sounds/ExplodeEnemy.ogg",47,9f,a6,7c),((Float)0.4),false,null(),null(),null());
-HXLINE( 516)				object1->kill();
-HXLINE( 517)				object1->set_exists(true);
-HXLINE( 518)				 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(::PlayState_obj::DEATH_ANIMATION_DURATION, ::Dynamic(new _hx_Closure_1(object1)),null());
-HXLINE( 520)				pointsAdd = 100;
-HXLINE( 521)				this->enemyHits++;
-HXLINE( 522)				this->updateMultiplier();
+HXLINE( 524)				env1->isDead = true;
+HXLINE( 525)				env1->animation->play(HX_("death",34,8f,1e,d7),null(),null(),null());
+HXLINE( 526)				::flixel::FlxG_obj::sound->play(HX_("assets/sounds/ExplodeEnemy.ogg",47,9f,a6,7c),((Float)0.4),false,null(),null(),null());
+HXLINE( 527)				object1->kill();
+HXLINE( 528)				object1->set_exists(true);
+HXLINE( 529)				 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(::PlayState_obj::DEATH_ANIMATION_DURATION, ::Dynamic(new _hx_Closure_1(object1)),null());
+HXLINE( 531)				pointsAdd = 100;
+HXLINE( 532)				this->enemyHits++;
+HXLINE( 533)				this->updateMultiplier();
             			}
             			else {
-HXLINE( 524)				return;
+HXLINE( 535)				return;
             			}
-HXLINE( 509)			goto _hx_goto_19;
+HXLINE( 520)			goto _hx_goto_19;
             		}
             		if (  (_hx_switch_0==::hx::ClassOf< ::Projectile >()) ){
-HXLINE( 526)			goto _hx_goto_19;
+HXLINE( 537)			goto _hx_goto_19;
             		}
             		_hx_goto_19:;
-HXLINE( 529)		if (::Std_obj::isOfType(object1,::hx::ClassOf< ::Projectile >())) {
-HXLINE( 531)			 ::Projectile p1 = ::hx::TCast<  ::Projectile >::cast(object1);
-HXLINE( 532)			if ((p1->bulletPenetration > 0)) {
-HXLINE( 533)				p1->bulletPenetration--;
+HXLINE( 540)		if (::Std_obj::isOfType(object1,::hx::ClassOf< ::Projectile >())) {
+HXLINE( 542)			 ::Projectile p1 = ::hx::TCast<  ::Projectile >::cast(object1);
+HXLINE( 543)			if ((p1->bulletPenetration > 0)) {
+HXLINE( 544)				p1->bulletPenetration--;
             			}
             			else {
-HXLINE( 535)				p1->kill();
+HXLINE( 546)				p1->kill();
             			}
             		}
-HXLINE( 540)		if (::Std_obj::isOfType(object2,::hx::ClassOf< ::Projectile >())) {
-HXLINE( 542)			 ::Projectile p2 = ::hx::TCast<  ::Projectile >::cast(object2);
-HXLINE( 543)			if ((p2->bulletPenetration > 0)) {
-HXLINE( 544)				p2->bulletPenetration--;
+HXLINE( 551)		if (::Std_obj::isOfType(object2,::hx::ClassOf< ::Projectile >())) {
+HXLINE( 553)			 ::Projectile p2 = ::hx::TCast<  ::Projectile >::cast(object2);
+HXLINE( 554)			if ((p2->bulletPenetration > 0)) {
+HXLINE( 555)				p2->bulletPenetration--;
             			}
             			else {
-HXLINE( 546)				p2->kill();
+HXLINE( 557)				p2->kill();
             			}
             		}
-HXLINE( 552)		if ((this->multishotCharge < ::PlayState_obj::MULTISHOT_CHARGE_MAX)) {
-HXLINE( 554)			this->multishotCharge++;
-HXLINE( 555)			this->updateMultishotText();
+HXLINE( 563)		if ((this->multishotCharge < ::PlayState_obj::MULTISHOT_CHARGE_MAX)) {
+HXLINE( 565)			this->multishotCharge++;
+HXLINE( 566)			this->updateMultishotText();
             		}
-HXLINE( 558)		 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 558)		_hx_tmp->score = (_hx_tmp->score + (pointsAdd * ::PlayState_obj::MULTIPLIER));
-HXLINE( 561)		this->updateScoreText();
-HXLINE( 562)		this->isWaveComplete();
+HXLINE( 569)		 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 569)		_hx_tmp->score = (_hx_tmp->score + (pointsAdd * ::PlayState_obj::MULTIPLIER));
+HXLINE( 572)		this->updateScoreText();
+HXLINE( 573)		this->isWaveComplete();
             	}
 
 
@@ -1046,35 +1051,35 @@ HX_DEFINE_DYNAMIC_FUNC2(PlayState_obj,collideProjectile,(void))
 void PlayState_obj::collideBoss( ::flixel::FlxObject object1, ::flixel::FlxObject object2){
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::Boss,boss) HXARGC(1)
             		void _hx_run( ::flixel::util::FlxTimer t){
-            			HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_576_collideBoss)
-HXLINE( 576)			boss->set_color(-1);
+            			HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_587_collideBoss)
+HXLINE( 587)			boss->set_color(-1);
             		}
             		HX_END_LOCAL_FUNC1((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_566_collideBoss)
-HXLINE( 567)		 ::Boss boss = ::hx::TCast<  ::Boss >::cast(object1);
-HXLINE( 568)		 ::Projectile projectile = ::hx::TCast<  ::Projectile >::cast(object2);
-HXLINE( 570)		projectile->kill();
-HXLINE( 572)		boss->hp--;
-HXLINE( 575)		boss->set_color(-65536);
-HXLINE( 576)		 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.1), ::Dynamic(new _hx_Closure_0(boss)),null());
-HXLINE( 578)		if ((boss->hp <= 0)) {
-HXLINE( 580)			::flixel::FlxG_obj::sound->play(HX_("assets/sounds/DeathBoss.ogg",c3,94,f7,b7),((Float)0.4),false,null(),null(),null());
-HXLINE( 582)			::flixel::FlxG_obj::camera->flash(-1,((Float)1.0),null(),null());
-HXLINE( 583)			boss->kill();
-HXLINE( 585)			 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 585)			_hx_tmp->score = (_hx_tmp->score + (5000 * ::PlayState_obj::MULTIPLIER));
-HXLINE( 586)			this->multishotCharge = ::PlayState_obj::MULTISHOT_CHARGE_MAX;
-HXLINE( 588)			this->updateMultishotText();
-HXLINE( 589)			this->updateScoreText();
-HXLINE( 591)			this->playerHealth++;
-HXLINE( 592)			this->updateHealthText();
-HXLINE( 594)			if ((this->currentWave == this->FINAL_WAVE)) {
-HXLINE( 596)				this->gameWonText->set_visible(true);
-HXLINE( 597)				this->isgameOver = true;
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_577_collideBoss)
+HXLINE( 578)		 ::Boss boss = ::hx::TCast<  ::Boss >::cast(object1);
+HXLINE( 579)		 ::Projectile projectile = ::hx::TCast<  ::Projectile >::cast(object2);
+HXLINE( 581)		projectile->kill();
+HXLINE( 583)		boss->hp--;
+HXLINE( 586)		boss->set_color(-65536);
+HXLINE( 587)		 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.1), ::Dynamic(new _hx_Closure_0(boss)),null());
+HXLINE( 589)		if ((boss->hp <= 0)) {
+HXLINE( 591)			::flixel::FlxG_obj::sound->play(HX_("assets/sounds/DeathBoss.ogg",c3,94,f7,b7),((Float)0.4),false,null(),null(),null());
+HXLINE( 593)			::flixel::FlxG_obj::camera->flash(-1,((Float)1.0),null(),null());
+HXLINE( 594)			boss->kill();
+HXLINE( 596)			 ::PlayState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 596)			_hx_tmp->score = (_hx_tmp->score + (5000 * ::PlayState_obj::MULTIPLIER));
+HXLINE( 597)			this->multishotCharge = ::PlayState_obj::MULTISHOT_CHARGE_MAX;
+HXLINE( 599)			this->updateMultishotText();
+HXLINE( 600)			this->updateScoreText();
+HXLINE( 602)			this->playerHealth++;
+HXLINE( 603)			this->updateHealthText();
+HXLINE( 605)			if ((this->currentWave == this->FINAL_WAVE)) {
+HXLINE( 607)				this->gameWonText->set_visible(true);
+HXLINE( 608)				this->isgameOver = true;
             			}
             			else {
-HXLINE( 601)				this->isWaveComplete();
+HXLINE( 612)				this->isWaveComplete();
             			}
             		}
             	}
@@ -1085,99 +1090,99 @@ HX_DEFINE_DYNAMIC_FUNC2(PlayState_obj,collideBoss,(void))
 void PlayState_obj::startWave(){
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::PlayState,_gthis) HXARGC(1)
             		void _hx_run( ::flixel::util::FlxTimer timer){
-            			HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_616_startWave)
-HXLINE( 616)			_gthis->waveText->set_visible(false);
+            			HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_627_startWave)
+HXLINE( 627)			_gthis->waveText->set_visible(false);
             		}
             		HX_END_LOCAL_FUNC1((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_607_startWave)
-HXDLIN( 607)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 608)		if (this->isgameOver) {
-HXLINE( 609)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_618_startWave)
+HXDLIN( 618)		 ::PlayState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 619)		if (this->isgameOver) {
+HXLINE( 620)			return;
             		}
-HXLINE( 611)		this->currentWave++;
-HXLINE( 612)		this->isSpawning = true;
-HXLINE( 615)		this->waveText->set_visible(true);
-HXLINE( 616)		 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)2.0), ::Dynamic(new _hx_Closure_0(_gthis)),null());
-HXLINE( 618)		this->enemiesToSpawn = 0;
-HXLINE( 619)		this->asteroidsToSpawn = 0;
-HXLINE( 621)		if ((this->currentWave == 0)) {
-HXLINE( 623)			this->enemiesToSpawn = 0;
-HXLINE( 624)			this->asteroidsToSpawn = 12;
-HXLINE( 625)			this->waveText->set_text(HX_("Shoot the Asteroids!",f9,9e,60,27));
+HXLINE( 622)		this->currentWave++;
+HXLINE( 623)		this->isSpawning = true;
+HXLINE( 626)		this->waveText->set_visible(true);
+HXLINE( 627)		 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)2.0), ::Dynamic(new _hx_Closure_0(_gthis)),null());
+HXLINE( 629)		this->enemiesToSpawn = 0;
+HXLINE( 630)		this->asteroidsToSpawn = 0;
+HXLINE( 632)		if ((this->currentWave == 0)) {
+HXLINE( 634)			this->enemiesToSpawn = 0;
+HXLINE( 635)			this->asteroidsToSpawn = 12;
+HXLINE( 636)			this->waveText->set_text(HX_("Shoot the Asteroids!",f9,9e,60,27));
             		}
-HXLINE( 627)		if ((this->currentWave == 1)) {
-HXLINE( 629)			this->enemiesToSpawn = 2;
-HXLINE( 630)			this->asteroidsToSpawn = 10;
-HXLINE( 631)			this->waveText->set_text((HX_("Wave ",27,0c,54,58) + this->currentWave));
+HXLINE( 638)		if ((this->currentWave == 1)) {
+HXLINE( 640)			this->enemiesToSpawn = 2;
+HXLINE( 641)			this->asteroidsToSpawn = 10;
+HXLINE( 642)			this->waveText->set_text((HX_("Wave ",27,0c,54,58) + this->currentWave));
             		}
             		else {
-HXLINE( 633)			if ((this->currentWave == 2)) {
-HXLINE( 635)				this->enemiesToSpawn = 4;
-HXLINE( 636)				this->asteroidsToSpawn = 12;
-HXLINE( 637)				this->waveText->set_text((HX_("Wave ",27,0c,54,58) + this->currentWave));
+HXLINE( 644)			if ((this->currentWave == 2)) {
+HXLINE( 646)				this->enemiesToSpawn = 4;
+HXLINE( 647)				this->asteroidsToSpawn = 12;
+HXLINE( 648)				this->waveText->set_text((HX_("Wave ",27,0c,54,58) + this->currentWave));
             			}
             			else {
-HXLINE( 639)				if ((this->currentWave == 3)) {
-HXLINE( 641)					this->enemiesToSpawn = 6;
-HXLINE( 642)					this->asteroidsToSpawn = 12;
-HXLINE( 643)					this->waveText->set_text((HX_("Wave ",27,0c,54,58) + this->currentWave));
+HXLINE( 650)				if ((this->currentWave == 3)) {
+HXLINE( 652)					this->enemiesToSpawn = 6;
+HXLINE( 653)					this->asteroidsToSpawn = 12;
+HXLINE( 654)					this->waveText->set_text((HX_("Wave ",27,0c,54,58) + this->currentWave));
             				}
             				else {
-HXLINE( 645)					if ((this->currentWave == 4)) {
-HXLINE( 647)						this->enemiesToSpawn = 12;
-HXLINE( 648)						this->asteroidsToSpawn = 12;
-HXLINE( 649)						this->waveText->set_text((HX_("Wave ",27,0c,54,58) + this->currentWave));
+HXLINE( 656)					if ((this->currentWave == 4)) {
+HXLINE( 658)						this->enemiesToSpawn = 12;
+HXLINE( 659)						this->asteroidsToSpawn = 12;
+HXLINE( 660)						this->waveText->set_text((HX_("Wave ",27,0c,54,58) + this->currentWave));
             					}
             					else {
-HXLINE( 651)						if ((this->currentWave == 5)) {
-HXLINE( 653)							this->enemiesToSpawn = 16;
-HXLINE( 654)							this->asteroidsToSpawn = 16;
-HXLINE( 655)							this->waveText->set_text((HX_("Wave ",27,0c,54,58) + this->currentWave));
+HXLINE( 662)						if ((this->currentWave == 5)) {
+HXLINE( 664)							this->enemiesToSpawn = 16;
+HXLINE( 665)							this->asteroidsToSpawn = 16;
+HXLINE( 666)							this->waveText->set_text((HX_("Wave ",27,0c,54,58) + this->currentWave));
             						}
             						else {
-HXLINE( 657)							if ((this->currentWave == 6)) {
-HXLINE( 659)								this->enemiesToSpawn = 0;
-HXLINE( 660)								this->asteroidsToSpawn = 12;
-HXLINE( 661)								this->waveText->set_text(HX_("Enemy Leader Inbound...",14,57,0d,6c));
-HXLINE( 662)								this->spawnBoss(0,1);
+HXLINE( 668)							if ((this->currentWave == 6)) {
+HXLINE( 670)								this->enemiesToSpawn = 0;
+HXLINE( 671)								this->asteroidsToSpawn = 12;
+HXLINE( 672)								this->waveText->set_text(HX_("Enemy Leader Inbound...",14,57,0d,6c));
+HXLINE( 673)								this->spawnBoss(0,1);
             							}
             							else {
-HXLINE( 664)								if ((this->currentWave == 7)) {
-HXLINE( 666)									this->enemiesToSpawn = 16;
-HXLINE( 667)									this->asteroidsToSpawn = 24;
-HXLINE( 668)									this->waveText->set_text((HX_("Wave ",27,0c,54,58) + (this->currentWave - 1)));
+HXLINE( 675)								if ((this->currentWave == 7)) {
+HXLINE( 677)									this->enemiesToSpawn = 16;
+HXLINE( 678)									this->asteroidsToSpawn = 24;
+HXLINE( 679)									this->waveText->set_text((HX_("Wave ",27,0c,54,58) + (this->currentWave - 1)));
             								}
             								else {
-HXLINE( 670)									if ((this->currentWave == 8)) {
-HXLINE( 672)										this->enemiesToSpawn = 24;
-HXLINE( 673)										this->asteroidsToSpawn = 24;
-HXLINE( 674)										this->waveText->set_text((HX_("Wave ",27,0c,54,58) + (this->currentWave - 1)));
+HXLINE( 681)									if ((this->currentWave == 8)) {
+HXLINE( 683)										this->enemiesToSpawn = 24;
+HXLINE( 684)										this->asteroidsToSpawn = 24;
+HXLINE( 685)										this->waveText->set_text((HX_("Wave ",27,0c,54,58) + (this->currentWave - 1)));
             									}
             									else {
-HXLINE( 676)										if ((this->currentWave == 9)) {
-HXLINE( 678)											this->enemiesToSpawn = 32;
-HXLINE( 679)											this->asteroidsToSpawn = 12;
-HXLINE( 680)											this->waveText->set_text((HX_("Wave ",27,0c,54,58) + (this->currentWave - 1)));
+HXLINE( 687)										if ((this->currentWave == 9)) {
+HXLINE( 689)											this->enemiesToSpawn = 32;
+HXLINE( 690)											this->asteroidsToSpawn = 12;
+HXLINE( 691)											this->waveText->set_text((HX_("Wave ",27,0c,54,58) + (this->currentWave - 1)));
             										}
             										else {
-HXLINE( 682)											if ((this->currentWave == 10)) {
-HXLINE( 684)												this->enemiesToSpawn = 48;
-HXLINE( 685)												this->asteroidsToSpawn = 12;
-HXLINE( 686)												this->waveText->set_text((HX_("Wave ",27,0c,54,58) + (this->currentWave - 1)));
+HXLINE( 693)											if ((this->currentWave == 10)) {
+HXLINE( 695)												this->enemiesToSpawn = 48;
+HXLINE( 696)												this->asteroidsToSpawn = 12;
+HXLINE( 697)												this->waveText->set_text((HX_("Wave ",27,0c,54,58) + (this->currentWave - 1)));
             											}
             											else {
-HXLINE( 688)												if ((this->currentWave == 11)) {
-HXLINE( 690)													this->enemiesToSpawn = 80;
-HXLINE( 691)													this->asteroidsToSpawn = 0;
-HXLINE( 692)													this->waveText->set_text(HX_("Enemy Territory!",1f,84,16,c3));
+HXLINE( 699)												if ((this->currentWave == 11)) {
+HXLINE( 701)													this->enemiesToSpawn = 80;
+HXLINE( 702)													this->asteroidsToSpawn = 0;
+HXLINE( 703)													this->waveText->set_text(HX_("Enemy Territory!",1f,84,16,c3));
             												}
             												else {
-HXLINE( 694)													if ((this->currentWave == this->FINAL_WAVE)) {
-HXLINE( 696)														this->enemiesToSpawn = 0;
-HXLINE( 697)														this->asteroidsToSpawn = 12;
-HXLINE( 698)														this->waveText->set_text(HX_("Enemy Leader Awakened...",e7,33,4f,41));
-HXLINE( 699)														this->spawnBoss(0,0);
+HXLINE( 705)													if ((this->currentWave == this->FINAL_WAVE)) {
+HXLINE( 707)														this->enemiesToSpawn = 0;
+HXLINE( 708)														this->asteroidsToSpawn = 12;
+HXLINE( 709)														this->waveText->set_text(HX_("Enemy Leader Awakened...",e7,33,4f,41));
+HXLINE( 710)														this->spawnBoss(0,0);
             													}
             												}
             											}
@@ -1190,47 +1195,47 @@ HXLINE( 699)														this->spawnBoss(0,0);
             				}
             			}
             		}
-HXLINE( 711)		if ((this->enemiesToSpawn > 0)) {
+HXLINE( 722)		if ((this->enemiesToSpawn > 0)) {
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::PlayState,_gthis) HXARGC(1)
             			void _hx_run( ::flixel::util::FlxTimer timer){
-            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_715_startWave)
-HXLINE( 715)				if (!(::PauseState_obj::isPaused)) {
-HXLINE( 716)					 ::flixel::group::FlxTypedGroup _gthis1 = _gthis->enemy;
-HXDLIN( 716)					_gthis1->add( ::Enemy_obj::__alloc( HX_CTX ,null(),null())).StaticCast<  ::flixel::FlxBasic >();
+            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_726_startWave)
+HXLINE( 726)				if (!(::PauseState_obj::isPaused)) {
+HXLINE( 727)					 ::flixel::group::FlxTypedGroup _gthis1 = _gthis->enemy;
+HXDLIN( 727)					_gthis1->add( ::Enemy_obj::__alloc( HX_CTX ,null(),null())).StaticCast<  ::flixel::FlxBasic >();
             				}
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 713)			 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(::PlayState_obj::SPAWN_RATE, ::Dynamic(new _hx_Closure_1(_gthis)),this->enemiesToSpawn);
+HXLINE( 724)			 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(::PlayState_obj::SPAWN_RATE, ::Dynamic(new _hx_Closure_1(_gthis)),this->enemiesToSpawn);
             		}
-HXLINE( 721)		if ((this->asteroidsToSpawn > 0)) {
+HXLINE( 732)		if ((this->asteroidsToSpawn > 0)) {
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_2, ::PlayState,_gthis) HXARGC(1)
             			void _hx_run( ::flixel::util::FlxTimer timer){
-            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_725_startWave)
-HXLINE( 725)				if (!(::PauseState_obj::isPaused)) {
-HXLINE( 726)					 ::flixel::group::FlxTypedGroup _gthis1 = _gthis->asteroid;
-HXDLIN( 726)					_gthis1->add( ::Asteroid_obj::__alloc( HX_CTX ,null())).StaticCast<  ::flixel::FlxBasic >();
+            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_736_startWave)
+HXLINE( 736)				if (!(::PauseState_obj::isPaused)) {
+HXLINE( 737)					 ::flixel::group::FlxTypedGroup _gthis1 = _gthis->asteroid;
+HXDLIN( 737)					_gthis1->add( ::Asteroid_obj::__alloc( HX_CTX ,null())).StaticCast<  ::flixel::FlxBasic >();
             				}
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 723)			 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(::PlayState_obj::SPAWN_RATE, ::Dynamic(new _hx_Closure_2(_gthis)),this->asteroidsToSpawn);
+HXLINE( 734)			 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(::PlayState_obj::SPAWN_RATE, ::Dynamic(new _hx_Closure_2(_gthis)),this->asteroidsToSpawn);
             		}
-HXLINE( 731)		Float enemySpawnDuration = (::PlayState_obj::SPAWN_RATE * ( (Float)(this->enemiesToSpawn) ));
-HXLINE( 732)		Float asteroidSpawnDuration = (::PlayState_obj::SPAWN_RATE * ( (Float)(this->asteroidsToSpawn) ));
-HXLINE( 733)		Float totalSpawnTime = ::Math_obj::max(enemySpawnDuration,asteroidSpawnDuration);
-HXLINE( 735)		if ((totalSpawnTime > 0)) {
+HXLINE( 742)		Float enemySpawnDuration = (::PlayState_obj::SPAWN_RATE * ( (Float)(this->enemiesToSpawn) ));
+HXLINE( 743)		Float asteroidSpawnDuration = (::PlayState_obj::SPAWN_RATE * ( (Float)(this->asteroidsToSpawn) ));
+HXLINE( 744)		Float totalSpawnTime = ::Math_obj::max(enemySpawnDuration,asteroidSpawnDuration);
+HXLINE( 746)		if ((totalSpawnTime > 0)) {
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_3, ::PlayState,_gthis) HXARGC(1)
             			void _hx_run( ::flixel::util::FlxTimer timer){
-            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_739_startWave)
-HXLINE( 739)				_gthis->isSpawning = false;
+            				HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_750_startWave)
+HXLINE( 750)				_gthis->isSpawning = false;
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 737)			 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start((totalSpawnTime + ((Float)0.1)), ::Dynamic(new _hx_Closure_3(_gthis)),null());
+HXLINE( 748)			 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start((totalSpawnTime + ((Float)0.1)), ::Dynamic(new _hx_Closure_3(_gthis)),null());
             		}
             		else {
-HXLINE( 745)			this->isSpawning = false;
+HXLINE( 756)			this->isSpawning = false;
             		}
             	}
 
@@ -1240,13 +1245,13 @@ HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,startWave,(void))
 void PlayState_obj::spawnBoss(::hx::Null< int >  __o_assetID,::hx::Null< int >  __o_bossType){
             		int assetID = __o_assetID.Default(0);
             		int bossType = __o_bossType.Default(0);
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_750_spawnBoss)
-HXLINE( 751)		this->boss =  ::Boss_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(-100) ),assetID,bossType);
-HXLINE( 752)		this->add(this->boss);
-HXLINE( 754)		 ::Boss _hx_tmp = this->boss;
-HXDLIN( 754)		int _hx_tmp1 = ::flixel::FlxG_obj::width;
-HXDLIN( 754)		_hx_tmp->set_x(((( (Float)(_hx_tmp1) ) - this->boss->get_width()) / ( (Float)(2) )));
-HXLINE( 756)		::flixel::tweens::FlxTween_obj::tween(this->boss, ::Dynamic(::hx::Anon_obj::Create(1)
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_761_spawnBoss)
+HXLINE( 762)		this->boss =  ::Boss_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(-100) ),assetID,bossType);
+HXLINE( 763)		this->add(this->boss);
+HXLINE( 765)		 ::Boss _hx_tmp = this->boss;
+HXDLIN( 765)		int _hx_tmp1 = ::flixel::FlxG_obj::width;
+HXDLIN( 765)		_hx_tmp->set_x(((( (Float)(_hx_tmp1) ) - this->boss->get_width()) / ( (Float)(2) )));
+HXLINE( 767)		::flixel::tweens::FlxTween_obj::tween(this->boss, ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("y",79,00,00,00),50)),((Float)2.0),null());
             	}
 
@@ -1254,59 +1259,59 @@ HXLINE( 756)		::flixel::tweens::FlxTween_obj::tween(this->boss, ::Dynamic(::hx::
 HX_DEFINE_DYNAMIC_FUNC2(PlayState_obj,spawnBoss,(void))
 
 void PlayState_obj::isWaveComplete(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_760_isWaveComplete)
-HXLINE( 761)		bool _hx_tmp;
-HXDLIN( 761)		if (!(this->isSpawning)) {
-HXLINE( 761)			_hx_tmp = this->isgameOver;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_771_isWaveComplete)
+HXLINE( 772)		bool _hx_tmp;
+HXDLIN( 772)		if (!(this->isSpawning)) {
+HXLINE( 772)			_hx_tmp = this->isgameOver;
             		}
             		else {
-HXLINE( 761)			_hx_tmp = true;
+HXLINE( 772)			_hx_tmp = true;
             		}
-HXDLIN( 761)		if (_hx_tmp) {
-HXLINE( 762)			return;
+HXDLIN( 772)		if (_hx_tmp) {
+HXLINE( 773)			return;
             		}
-HXLINE( 764)		bool isEnemiesDead;
-HXDLIN( 764)		if ((this->enemiesToSpawn != 0)) {
-HXLINE( 764)			isEnemiesDead = (this->enemy->countLiving() == 0);
-            		}
-            		else {
-HXLINE( 764)			isEnemiesDead = true;
-            		}
-HXLINE( 765)		bool isAsteroidsDead;
-HXDLIN( 765)		if ((this->asteroidsToSpawn != 0)) {
-HXLINE( 765)			isAsteroidsDead = (this->asteroid->countLiving() <= 4);
+HXLINE( 775)		bool isEnemiesDead;
+HXDLIN( 775)		if ((this->enemiesToSpawn != 0)) {
+HXLINE( 775)			isEnemiesDead = (this->enemy->countLiving() == 0);
             		}
             		else {
-HXLINE( 765)			isAsteroidsDead = true;
+HXLINE( 775)			isEnemiesDead = true;
             		}
-HXLINE( 767)		bool _hx_tmp1;
-HXDLIN( 767)		bool _hx_tmp2;
-HXDLIN( 767)		bool _hx_tmp3;
-HXDLIN( 767)		if (this->ship->alive) {
-HXLINE( 767)			_hx_tmp3 = isEnemiesDead;
+HXLINE( 776)		bool isAsteroidsDead;
+HXDLIN( 776)		if ((this->asteroidsToSpawn != 0)) {
+HXLINE( 776)			isAsteroidsDead = (this->asteroid->countLiving() <= 4);
             		}
             		else {
-HXLINE( 767)			_hx_tmp3 = false;
+HXLINE( 776)			isAsteroidsDead = true;
             		}
-HXDLIN( 767)		if (_hx_tmp3) {
-HXLINE( 767)			_hx_tmp2 = isAsteroidsDead;
+HXLINE( 778)		bool _hx_tmp1;
+HXDLIN( 778)		bool _hx_tmp2;
+HXDLIN( 778)		bool _hx_tmp3;
+HXDLIN( 778)		if (this->ship->alive) {
+HXLINE( 778)			_hx_tmp3 = isEnemiesDead;
             		}
             		else {
-HXLINE( 767)			_hx_tmp2 = false;
+HXLINE( 778)			_hx_tmp3 = false;
             		}
-HXDLIN( 767)		if (_hx_tmp2) {
-HXLINE( 767)			if (::hx::IsNotNull( this->boss )) {
-HXLINE( 767)				_hx_tmp1 = !(this->boss->alive);
+HXDLIN( 778)		if (_hx_tmp3) {
+HXLINE( 778)			_hx_tmp2 = isAsteroidsDead;
+            		}
+            		else {
+HXLINE( 778)			_hx_tmp2 = false;
+            		}
+HXDLIN( 778)		if (_hx_tmp2) {
+HXLINE( 778)			if (::hx::IsNotNull( this->boss )) {
+HXLINE( 778)				_hx_tmp1 = !(this->boss->alive);
             			}
             			else {
-HXLINE( 767)				_hx_tmp1 = true;
+HXLINE( 778)				_hx_tmp1 = true;
             			}
             		}
             		else {
-HXLINE( 767)			_hx_tmp1 = false;
+HXLINE( 778)			_hx_tmp1 = false;
             		}
-HXDLIN( 767)		if (_hx_tmp1) {
-HXLINE( 769)			this->startWave();
+HXDLIN( 778)		if (_hx_tmp1) {
+HXLINE( 780)			this->startWave();
             		}
             	}
 
@@ -1314,134 +1319,134 @@ HXLINE( 769)			this->startWave();
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,isWaveComplete,(void))
 
 void PlayState_obj::updateMultishotText(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_774_updateMultishotText)
-HXLINE( 775)		if ((this->multishotCharge >= ::PlayState_obj::MULTISHOT_CHARGE_MAX)) {
-HXLINE( 776)			this->controlsText->set_visible(true);
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_785_updateMultishotText)
+HXLINE( 786)		if ((this->multishotCharge >= ::PlayState_obj::MULTISHOT_CHARGE_MAX)) {
+HXLINE( 787)			this->controlsText->set_visible(true);
             		}
-HXLINE( 778)		this->multishotText->set_text((((HX_("Super: ",c1,f0,30,03) + this->multishotCharge) + HX_("/",2f,00,00,00)) + ::PlayState_obj::MULTISHOT_CHARGE_MAX));
+HXLINE( 789)		this->multishotText->set_text((((HX_("Super: ",c1,f0,30,03) + this->multishotCharge) + HX_("/",2f,00,00,00)) + ::PlayState_obj::MULTISHOT_CHARGE_MAX));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,updateMultishotText,(void))
 
 void PlayState_obj::updateHealthText(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_783_updateHealthText)
-HXDLIN( 783)		this->healthText->set_text((HX_("HP: ",ae,43,d4,2f) + this->playerHealth));
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_794_updateHealthText)
+HXDLIN( 794)		this->healthText->set_text((HX_("HP: ",ae,43,d4,2f) + this->playerHealth));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,updateHealthText,(void))
 
 Float PlayState_obj::updateScoreText(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_788_updateScoreText)
-HXLINE( 794)		this->scoreText->set_text((HX_("Score: ",58,c6,eb,45) + this->score));
-HXLINE( 795)		return this->score;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_799_updateScoreText)
+HXLINE( 805)		this->scoreText->set_text((HX_("Score: ",58,c6,eb,45) + this->score));
+HXLINE( 806)		return this->score;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,updateScoreText,return )
 
 void PlayState_obj::updateMultiplier(){
-            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_799_updateMultiplier)
-HXLINE( 801)		if ((::PlayState_obj::MULTIPLIER < ::PlayState_obj::MULTIPLIER_MAX)) {
-HXLINE( 803)			::PlayState_obj::MULTIPLIER++;
+            	HX_STACKFRAME(&_hx_pos_af23706db05c7feb_810_updateMultiplier)
+HXLINE( 812)		if ((::PlayState_obj::MULTIPLIER < ::PlayState_obj::MULTIPLIER_MAX)) {
+HXLINE( 814)			::PlayState_obj::MULTIPLIER++;
             		}
-HXLINE( 806)		::PlayState_obj::multiplierTimer = ( (Float)(0) );
+HXLINE( 817)		::PlayState_obj::multiplierTimer = ( (Float)(0) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(PlayState_obj,updateMultiplier,(void))
 
 void PlayState_obj::enemyShot( ::flixel::util::FlxTimer timer){
-            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_810_enemyShot)
-HXLINE( 811)		if (::PauseState_obj::isPaused) {
-HXLINE( 812)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_af23706db05c7feb_821_enemyShot)
+HXLINE( 822)		if (::PauseState_obj::isPaused) {
+HXLINE( 823)			return;
             		}
-HXLINE( 815)		{
-HXLINE( 815)			 ::Dynamic filter = null();
-HXDLIN( 815)			::Array< ::Dynamic> _g__groupMembers = this->enemy->members;
-HXDLIN( 815)			 ::Dynamic _g__filter = filter;
-HXDLIN( 815)			int _g__cursor = 0;
-HXDLIN( 815)			int _g__length = _g__groupMembers->length;
-HXDLIN( 815)			while(true){
-HXLINE( 815)				while(true){
-HXLINE( 815)					bool _hx_tmp;
-HXDLIN( 815)					if ((_g__cursor < _g__length)) {
-HXLINE( 815)						if (::hx::IsNotNull( _g__groupMembers->__get(_g__cursor).StaticCast<  ::flixel::FlxBasic >() )) {
-HXLINE( 815)							if (::hx::IsNotNull( _g__filter )) {
-HXLINE( 815)								_hx_tmp = !(( (bool)(_g__filter(_g__groupMembers->__get(_g__cursor).StaticCast<  ::flixel::FlxBasic >())) ));
+HXLINE( 826)		{
+HXLINE( 826)			 ::Dynamic filter = null();
+HXDLIN( 826)			::Array< ::Dynamic> _g__groupMembers = this->enemy->members;
+HXDLIN( 826)			 ::Dynamic _g__filter = filter;
+HXDLIN( 826)			int _g__cursor = 0;
+HXDLIN( 826)			int _g__length = _g__groupMembers->length;
+HXDLIN( 826)			while(true){
+HXLINE( 826)				while(true){
+HXLINE( 826)					bool _hx_tmp;
+HXDLIN( 826)					if ((_g__cursor < _g__length)) {
+HXLINE( 826)						if (::hx::IsNotNull( _g__groupMembers->__get(_g__cursor).StaticCast<  ::flixel::FlxBasic >() )) {
+HXLINE( 826)							if (::hx::IsNotNull( _g__filter )) {
+HXLINE( 826)								_hx_tmp = !(( (bool)(_g__filter(_g__groupMembers->__get(_g__cursor).StaticCast<  ::flixel::FlxBasic >())) ));
             							}
             							else {
-HXLINE( 815)								_hx_tmp = false;
+HXLINE( 826)								_hx_tmp = false;
             							}
             						}
             						else {
-HXLINE( 815)							_hx_tmp = true;
+HXLINE( 826)							_hx_tmp = true;
             						}
             					}
             					else {
-HXLINE( 815)						_hx_tmp = false;
+HXLINE( 826)						_hx_tmp = false;
             					}
-HXDLIN( 815)					if (!(_hx_tmp)) {
-HXLINE( 815)						goto _hx_goto_37;
+HXDLIN( 826)					if (!(_hx_tmp)) {
+HXLINE( 826)						goto _hx_goto_37;
             					}
-HXDLIN( 815)					_g__cursor = (_g__cursor + 1);
+HXDLIN( 826)					_g__cursor = (_g__cursor + 1);
             				}
             				_hx_goto_37:;
-HXDLIN( 815)				if (!((_g__cursor < _g__length))) {
-HXLINE( 815)					goto _hx_goto_36;
+HXDLIN( 826)				if (!((_g__cursor < _g__length))) {
+HXLINE( 826)					goto _hx_goto_36;
             				}
-HXDLIN( 815)				 ::flixel::FlxBasic i;
-HXDLIN( 815)				while(true){
-HXLINE( 815)					bool i1;
-HXDLIN( 815)					if ((_g__cursor < _g__length)) {
-HXLINE( 815)						if (::hx::IsNotNull( _g__groupMembers->__get(_g__cursor).StaticCast<  ::flixel::FlxBasic >() )) {
-HXLINE( 815)							if (::hx::IsNotNull( _g__filter )) {
-HXLINE( 815)								i1 = !(( (bool)(_g__filter(_g__groupMembers->__get(_g__cursor).StaticCast<  ::flixel::FlxBasic >())) ));
+HXDLIN( 826)				 ::flixel::FlxBasic i;
+HXDLIN( 826)				while(true){
+HXLINE( 826)					bool i1;
+HXDLIN( 826)					if ((_g__cursor < _g__length)) {
+HXLINE( 826)						if (::hx::IsNotNull( _g__groupMembers->__get(_g__cursor).StaticCast<  ::flixel::FlxBasic >() )) {
+HXLINE( 826)							if (::hx::IsNotNull( _g__filter )) {
+HXLINE( 826)								i1 = !(( (bool)(_g__filter(_g__groupMembers->__get(_g__cursor).StaticCast<  ::flixel::FlxBasic >())) ));
             							}
             							else {
-HXLINE( 815)								i1 = false;
+HXLINE( 826)								i1 = false;
             							}
             						}
             						else {
-HXLINE( 815)							i1 = true;
+HXLINE( 826)							i1 = true;
             						}
             					}
             					else {
-HXLINE( 815)						i1 = false;
+HXLINE( 826)						i1 = false;
             					}
-HXDLIN( 815)					if (!(i1)) {
-HXLINE( 815)						goto _hx_goto_38;
+HXDLIN( 826)					if (!(i1)) {
+HXLINE( 826)						goto _hx_goto_38;
             					}
-HXDLIN( 815)					_g__cursor = (_g__cursor + 1);
+HXDLIN( 826)					_g__cursor = (_g__cursor + 1);
             				}
             				_hx_goto_38:;
-HXDLIN( 815)				if ((_g__cursor < _g__length)) {
-HXLINE( 815)					_g__cursor = (_g__cursor + 1);
-HXDLIN( 815)					i = _g__groupMembers->__get((_g__cursor - 1)).StaticCast<  ::flixel::FlxBasic >();
+HXDLIN( 826)				if ((_g__cursor < _g__length)) {
+HXLINE( 826)					_g__cursor = (_g__cursor + 1);
+HXDLIN( 826)					i = _g__groupMembers->__get((_g__cursor - 1)).StaticCast<  ::flixel::FlxBasic >();
             				}
             				else {
-HXLINE( 815)					i = null();
+HXLINE( 826)					i = null();
             				}
-HXDLIN( 815)				 ::flixel::FlxBasic i2 = i;
-HXLINE( 816)				 ::Enemy temp = ::hx::TCast<  ::Enemy >::cast(i2);
-HXLINE( 818)				if (temp->alive) {
-HXLINE( 821)					Float xC = temp->getGraphicMidpoint(null())->x;
-HXLINE( 822)					Float yC = temp->getGraphicMidpoint(null())->y;
-HXLINE( 825)					Float dX = temp->getMidpoint(null())->x;
-HXDLIN( 825)					Float dX1 = (dX - this->ship->getMidpoint(null())->x);
-HXLINE( 826)					Float dY = temp->getMidpoint(null())->y;
-HXDLIN( 826)					Float dY1 = (dY - this->ship->getMidpoint(null())->y);
-HXLINE( 829)					Float targetAng = ((::Math_obj::atan2(dY1,dX1) * (( (Float)(180) ) / ::Math_obj::PI)) - ( (Float)(180) ));
-HXLINE( 832)					targetAng = (targetAng + ::flixel::FlxG_obj::random->_hx_float(-(::PlayState_obj::ENEMY_INACCURACY),::PlayState_obj::ENEMY_INACCURACY,null()));
-HXLINE( 835)					 ::Projectile ep =  ::Projectile_obj::__alloc( HX_CTX ,xC,yC,targetAng,1,2);
-HXLINE( 836)					::flixel::FlxG_obj::sound->play(HX_("assets/sounds/ShootEnemy.ogg",c9,4b,1f,29),((Float)0.4),false,null(),null(),null());
-HXLINE( 837)					this->enemyProjectiles->add(ep).StaticCast<  ::flixel::FlxBasic >();
+HXDLIN( 826)				 ::flixel::FlxBasic i2 = i;
+HXLINE( 827)				 ::Enemy temp = ::hx::TCast<  ::Enemy >::cast(i2);
+HXLINE( 829)				if (temp->alive) {
+HXLINE( 832)					Float xC = temp->getGraphicMidpoint(null())->x;
+HXLINE( 833)					Float yC = temp->getGraphicMidpoint(null())->y;
+HXLINE( 836)					Float dX = temp->getMidpoint(null())->x;
+HXDLIN( 836)					Float dX1 = (dX - this->ship->getMidpoint(null())->x);
+HXLINE( 837)					Float dY = temp->getMidpoint(null())->y;
+HXDLIN( 837)					Float dY1 = (dY - this->ship->getMidpoint(null())->y);
+HXLINE( 840)					Float targetAng = ((::Math_obj::atan2(dY1,dX1) * (( (Float)(180) ) / ::Math_obj::PI)) - ( (Float)(180) ));
+HXLINE( 843)					targetAng = (targetAng + ::flixel::FlxG_obj::random->_hx_float(-(::PlayState_obj::ENEMY_INACCURACY),::PlayState_obj::ENEMY_INACCURACY,null()));
+HXLINE( 846)					 ::Projectile ep =  ::Projectile_obj::__alloc( HX_CTX ,xC,yC,targetAng,1,2);
+HXLINE( 847)					::flixel::FlxG_obj::sound->play(HX_("assets/sounds/ShootEnemy.ogg",c9,4b,1f,29),((Float)0.4),false,null(),null(),null());
+HXLINE( 848)					this->enemyProjectiles->add(ep).StaticCast<  ::flixel::FlxBasic >();
             				}
             			}
             			_hx_goto_36:;
             		}
-HXLINE( 842)		this->shotDelay = (::flixel::FlxG_obj::random->_hx_float(-(::PlayState_obj::ENEMY_SHOT_DELAY),::PlayState_obj::ENEMY_SHOT_DELAY,null()) + 3);
+HXLINE( 853)		this->shotDelay = (::flixel::FlxG_obj::random->_hx_float(-(::PlayState_obj::ENEMY_SHOT_DELAY),::PlayState_obj::ENEMY_SHOT_DELAY,null()) + 3);
             	}
 
 
