@@ -119,9 +119,8 @@ class MenuState extends FlxState
 		creditsPanel.visible = false;
 		add(creditsPanel);
 		creditsText = new FlxText(creditsPanel.x + 10, creditsPanel.y + 10, creditsPanel.width - 20,
-		    "SINGLE SPAGETTY" + 
-		    "\n" +
-		    "presents" +
+		    "SINGLE SPAGETTY Games\n" + 
+		    "presents\n" +
 		    "\n" +
 		    "\n" +
 		    "LEFT: ALIENED\n" +
@@ -129,9 +128,7 @@ class MenuState extends FlxState
 		    "\n" +
 		    "\n" +
 		    "\n" +
-		    "\"Asteroid-Shooter\"\n" +
-		    "by\n" +
-		    "The Group Formerly Known as Group 5\n" +
+		    "Asteroid-Shooter in HaxeFlixel\n" +
 		    "\n" +
 		    "\n" +
 		    "\n" +
@@ -208,9 +205,11 @@ class MenuState extends FlxState
 		    "\n" +
 		    "\n" +
 		    "\n" +
+		    "Created for\n" +
 		    "Lakehead University\n" +
-		    "COMP-4478-FA\n" +
+		    "COMP-4478-FA Game Programming\n" +
 		    "Dr. Sabah Mohammed\n" +
+		    "2025 +\n" +
 		    "\n" +
 		    "\n" +
 		    "\n" +
@@ -256,10 +255,18 @@ class MenuState extends FlxState
 		FlxG.switchState(PlayState.new);
 	}
 
+	// function goSplash():Void
+	// {
+	// 	FlxG.switchState(SplashState.new);
+	// }
 
 	override public function update(elapsed:Float)
 	{
 		super.update(elapsed);
+
+		// if (FlxG.keys.justPressed.ESCAPE)
+		// 	goSplash();
+
 		if (bg.width != FlxG.width || bg.height != FlxG.height)
 		{
 			scaleBackgroundToCover(bg, FlxG.width, FlxG.height);

@@ -5,9 +5,11 @@ import flixel.util.FlxTimer;
 
 class SplashState extends FlxState
 {
-	static inline var MIN_SECONDS:Float = 4.0;
+	static inline var MIN_SECONDS:Float = 2.5;
 	static inline var LOGO_PATH:String = "assets/images/UI/StudioLogo.png";
+
 	var done:Bool = false;
+	
 	override public function create():Void
 	{
 		super.create();

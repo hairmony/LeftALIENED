@@ -4,8 +4,8 @@
 #ifndef INCLUDED_Main
 #include <Main.h>
 #endif
-#ifndef INCLUDED_MenuState
-#include <MenuState.h>
+#ifndef INCLUDED_SplashState
+#include <SplashState.h>
 #endif
 #ifndef INCLUDED_flixel_FlxBasic
 #include <flixel/FlxBasic.h>
@@ -55,7 +55,7 @@ HX_DEFINE_STACK_FRAME(_hx_pos_e47a9afac0942eb9_9_new,"Main","new",0x6616a5cb,"Ma
 void Main_obj::__construct(){
             	HX_GC_STACKFRAME(&_hx_pos_e47a9afac0942eb9_9_new)
 HXLINE(  10)		super::__construct();
-HXLINE(  11)		this->addChild( ::flixel::FlxGame_obj::__alloc( HX_CTX ,640,360,::flixel::util::typeLimit::_NextState::InitialState_Impl__obj::fromType(::hx::ClassOf< ::MenuState >()),null(),null(),null(),null()));
+HXLINE(  11)		this->addChild( ::flixel::FlxGame_obj::__alloc( HX_CTX ,640,360,::flixel::util::typeLimit::_NextState::InitialState_Impl__obj::fromType(::hx::ClassOf< ::SplashState >()),null(),null(),null(),null()));
             	}
 
 Dynamic Main_obj::__CreateEmpty() { return new Main_obj; }

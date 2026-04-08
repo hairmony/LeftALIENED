@@ -104,7 +104,7 @@
 
 HX_DEFINE_STACK_FRAME(_hx_pos_9d6b32c958ffa4d3_12_new,"Player","new",0x8d5554f3,"Player.new","Player.hx",12,0xa27fc9dd)
 HX_LOCAL_STACK_FRAME(_hx_pos_9d6b32c958ffa4d3_53_update,"Player","update",0xf1f8df56,"Player.update","Player.hx",53,0xa27fc9dd)
-HX_LOCAL_STACK_FRAME(_hx_pos_9d6b32c958ffa4d3_154_update,"Player","update",0xf1f8df56,"Player.update","Player.hx",154,0xa27fc9dd)
+HX_LOCAL_STACK_FRAME(_hx_pos_9d6b32c958ffa4d3_152_update,"Player","update",0xf1f8df56,"Player.update","Player.hx",152,0xa27fc9dd)
 HX_LOCAL_STACK_FRAME(_hx_pos_9d6b32c958ffa4d3_14_boot,"Player","boot",0x156e003f,"Player.boot","Player.hx",14,0xa27fc9dd)
 HX_LOCAL_STACK_FRAME(_hx_pos_9d6b32c958ffa4d3_19_boot,"Player","boot",0x156e003f,"Player.boot","Player.hx",19,0xa27fc9dd)
 
@@ -276,28 +276,28 @@ HXLINE( 134)			this->set_angle((angDeg + 90));
             		else {
 HXLINE( 136)			bool _hx_tmp3 = (this->lastAimDevice == HX_("gamepad",a1,e0,85,89));
             		}
-HXLINE( 143)		if (this->isDodging) {
+HXLINE( 141)		if (this->isDodging) {
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::flixel::FlxSprite,trail) HXARGC(1)
             			void _hx_run( ::flixel::util::FlxTimer t){
-            				HX_GC_STACKFRAME(&_hx_pos_9d6b32c958ffa4d3_154_update)
-HXLINE( 154)				trail->kill();
+            				HX_GC_STACKFRAME(&_hx_pos_9d6b32c958ffa4d3_152_update)
+HXLINE( 152)				trail->kill();
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 145)			 ::Player _hx_tmp4 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 145)			_hx_tmp4->dodgeTimer = (_hx_tmp4->dodgeTimer + ::flixel::FlxG_obj::elapsed);
-HXLINE( 148)			 ::flixel::FlxSprite trail =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,this->x,this->y,null());
-HXLINE( 149)			trail->loadGraphic(this->asset,null(),null(),null(),null(),null());
-HXLINE( 150)			trail->set_alpha(((Float)0.2));
-HXLINE( 151)			trail->set_angle(this->angle);
-HXLINE( 152)			::flixel::FlxG_obj::game->_state->add(trail).StaticCast<  ::flixel::FlxBasic >();
-HXLINE( 154)			 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.2), ::Dynamic(new _hx_Closure_0(trail)),null());
-HXLINE( 157)			Float angleRad = (((this->angle - ( (Float)(90) )) * ::Math_obj::PI) / ( (Float)(180) ));
-HXLINE( 158)			this->set_x((this->x + ((::Math_obj::cos(angleRad) * ::Player_obj::DODGE_SPEED) * ::flixel::FlxG_obj::elapsed)));
-HXLINE( 159)			this->set_y((this->y + ((::Math_obj::sin(angleRad) * ::Player_obj::DODGE_SPEED) * ::flixel::FlxG_obj::elapsed)));
-HXLINE( 162)			if ((this->dodgeTimer >= this->dodgeDuration)) {
-HXLINE( 164)				this->isDodging = false;
-HXLINE( 165)				this->isInvincible = false;
+HXLINE( 143)			 ::Player _hx_tmp4 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 143)			_hx_tmp4->dodgeTimer = (_hx_tmp4->dodgeTimer + ::flixel::FlxG_obj::elapsed);
+HXLINE( 146)			 ::flixel::FlxSprite trail =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,this->x,this->y,null());
+HXLINE( 147)			trail->loadGraphic(this->asset,null(),null(),null(),null(),null());
+HXLINE( 148)			trail->set_alpha(((Float)0.2));
+HXLINE( 149)			trail->set_angle(this->angle);
+HXLINE( 150)			::flixel::FlxG_obj::game->_state->add(trail).StaticCast<  ::flixel::FlxBasic >();
+HXLINE( 152)			 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.2), ::Dynamic(new _hx_Closure_0(trail)),null());
+HXLINE( 155)			Float angleRad = (((this->angle - ( (Float)(90) )) * ::Math_obj::PI) / ( (Float)(180) ));
+HXLINE( 156)			this->set_x((this->x + ((::Math_obj::cos(angleRad) * ::Player_obj::DODGE_SPEED) * ::flixel::FlxG_obj::elapsed)));
+HXLINE( 157)			this->set_y((this->y + ((::Math_obj::sin(angleRad) * ::Player_obj::DODGE_SPEED) * ::flixel::FlxG_obj::elapsed)));
+HXLINE( 160)			if ((this->dodgeTimer >= this->dodgeDuration)) {
+HXLINE( 162)				this->isDodging = false;
+HXLINE( 163)				this->isInvincible = false;
             			}
             		}
             	}

@@ -1354,6 +1354,9 @@
 #ifndef INCLUDED_haxe_SysTools
 #include <haxe/SysTools.h>
 #endif
+#ifndef INCLUDED_SplashState
+#include <SplashState.h>
+#endif
 #ifndef INCLUDED_Projectile
 #include <Projectile.h>
 #endif
@@ -3978,6 +3981,7 @@ __files__boot();
 ::flixel::math::FlxBasePoint_obj::__register();
 ::Xml_obj::__register();
 ::haxe::SysTools_obj::__register();
+::SplashState_obj::__register();
 ::Projectile_obj::__register();
 ::Player_obj::__register();
 ::PlayState_obj::__register();
@@ -4809,6 +4813,7 @@ __files__boot();
 ::PlayState_obj::__boot();
 ::Player_obj::__boot();
 ::Projectile_obj::__boot();
+::SplashState_obj::__boot();
 ::haxe::SysTools_obj::__boot();
 ::Xml_obj::__boot();
 ::flixel::math::FlxBasePoint_obj::__boot();

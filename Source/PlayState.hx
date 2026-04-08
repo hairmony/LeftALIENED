@@ -313,7 +313,18 @@ class PlayState extends FlxState
 
 				fireTimer = 0;
 
-				var p = new Projectile(ship.getGraphicMidpoint().x, ship.getGraphicMidpoint().y, ship.angle - 90, 0, 0);
+				// var p = new Projectile(ship.getGraphicMidpoint().x, ship.getGraphicMidpoint().y, ship.angle - 90, 0, 0);
+
+				var angleDeg = ship.angle - 90;
+			    var angleRad = angleDeg * Math.PI / 180;
+
+			    var offset = 10; // distance from center to tip
+
+			    var spawnX = ship.getGraphicMidpoint().x + Math.cos(angleRad) * offset;
+			    var spawnY = ship.getGraphicMidpoint().y + Math.sin(angleRad) * offset;
+
+			    var p = new Projectile(spawnX, spawnY, angleDeg, 0, 0);
+			    
 				projectiles.add(p); // Add projectile to group
 			}
 
